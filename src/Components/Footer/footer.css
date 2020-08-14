@@ -1,0 +1,67 @@
+.sitefooter {
+    justify-content: center;
+    padding: 0 !important;
+    /* margin: 0% 25% 0% 25% !important; */
+    text-align: center;
+    background-color: #ffffff !important;
+    margin-bottom: -50px !important;
+}
+#proudpartners {
+    padding: 3rem 5rem;
+}
+#partners {
+    padding: 3rem;
+    margin: .5rem;
+}
+.partner {
+    width: 10rem;
+    margin-bottom: 5rem;
+}
+.socialicon {
+    width: 2rem;
+    margin: 1.5rem;
+}
+#copywrite {
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+#bottomnavi {
+    text-align: center;
+    padding: 3rem;
+    margin: 0rem 5rem;
+}
+#privacyPolicy {
+    cursor: pointer;
+}
+.bottomnavlink {
+    padding: 1.5rem !important;
+    margin-right: 5rem !important;
+    margin-left: 5rem !important;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.bottomnav {
+    text-decoration: none !important;
+    margin: 0;
+    color: #082653;
+}
+#footernav {
+    margin-top: 5rem;
+    margin-bottom: 5.5rem;
+}
+
+@media only screen and (max-width:600px) {
+    #footernav {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+@media only screen and (max-width:1024px) {
+    #footernav {
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+}

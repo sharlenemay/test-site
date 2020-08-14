@@ -1,0 +1,28 @@
+#earlyAccess {
+    padding-bottom: 11rem;
+}
+#wantEarlyAccess {
+    margin-bottom: 5rem;
+}
+.contactinput {
+    margin: 0rem 0rem 1.6rem 0rem;
+    background: rgba(255, 255, 255, 0.5) !important;
+    border: 0px !important;
+    color: #ffffff !important;
+}
+.form-control::-webkit-input-placeholder {
+    color: #fff;
+}
+
+@media only screen and (max-width:600px){
+    #earlyAccess {
+        padding-top:5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media only screen and (min-device-width: 601px) and (max-width:1024px) {
+    #earlyAccess {
+        padding-bottom: 5rem;
+    }
+}

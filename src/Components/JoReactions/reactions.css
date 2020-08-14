@@ -1,0 +1,172 @@
+.reactions {
+    justify-content: center !important;
+    margin: 0% 25% 15% 25%;
+    text-align: center !important;
+    margin-bottom: 25rem;
+    display: block;
+}
+.getToKnowJo {
+    text-align: left !important;
+    padding-top: 80vh;
+    padding-bottom: 18vh;
+}
+.addingImgMargins {
+    padding: 0 !important;
+    margin-right: 5rem;
+}
+.josreactions {
+    /* justify-content: center; */
+    position: relative;
+    margin: 0% 25% 15% 25%;
+    text-align: center !important;
+    height: 10rem;
+    padding: 1rem;
+    margin-bottom: 5rem !important;
+    border-radius: 12px;
+    color: #ffffff;
+}
+.fadein-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .fadein-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .fadein-exit {
+    opacity: 1;
+  }
+  .fadein-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+  }
+#happyJoText {
+    background: rgba(255, 255, 255, 0.2);
+    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 26rem;
+    position: absolute;
+    text-align: left;
+    padding: 1rem;
+    margin: 3rem;
+    left: 1rem;
+    line-height: 20px;
+    font-size: 15px;
+}
+#sickJoText {
+    background: rgba(255, 255, 255, 0.2);
+    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 26rem;
+    position: absolute;
+    text-align: left;
+    padding: 1rem;
+    margin: 3rem;
+    left: 20rem;
+    line-height: 20px;
+    font-size: 15px;
+}
+#confusedJoText {
+    background: rgba(255, 255, 255, 0.2);
+    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 26rem;
+    position: absolute;
+    text-align: left;
+    padding: 1rem;
+    margin: 3rem;
+    left: 38rem;
+    line-height: 20px;
+    font-size: 15px;
+}
+#neutralJoText {
+    background: rgba(255, 255, 255, 0.2);
+    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 26rem;
+    position: absolute;
+    text-align: left;
+    padding: 1rem;
+    margin: 3rem;
+    left: 55rem;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+#mobileJos {
+    display: none;
+}
+.mobileReactions {
+    background: rgba(255, 255, 255, 0.2) !important;
+    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%) !important;
+    border: none;
+    border-radius: 16px !important;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+    margin: 3rem 0rem;
+}
+.mobileJo {
+    width: 100px;
+    position: absolute;
+    z-index: 2;
+    left: 12rem;
+}
+.hoveredJo {
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width:600px){
+    .mobileCol {
+        padding: 0 !important;
+    }
+    #landingjo {
+        width: 15rem;
+        position: absolute;
+        z-index: 2;
+        right: -2rem;
+    }
+    #fourjos {
+        display: none;
+    }
+    #mobileJos {
+        display: block;
+    }
+    .getToKnowJo {
+        text-align: left !important;
+        padding-bottom: 10vh;
+        padding-top: 55vh;
+    }
+    .reactions {
+        margin-bottom: 0rem;
+        padding-top: 0rem;
+
+    }
+}
+@media only screen and (min-device-width: 601px) and (max-width:1024px){
+    #fourjos{
+        display: none;
+    }
+    #mobileJos {
+        display: block;
+    }
+    .getToKnowJo {
+        text-align: left !important;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    }
+    .reactions {
+        margin-bottom: 10rem;
+        padding-top: 15rem;
+    }
+}

@@ -1,0 +1,51 @@
+.howjoworks {
+    justify-content: center;
+    margin: 0% 25% 15% 25%;
+    text-align: left;
+    margin-bottom: 5rem !important;
+    background-color: transparent !important;
+}
+.addPadding{
+    padding: 3rem 2rem;
+}
+.howjoworksheading {
+    color: #4277DE;
+    text-align: left !important;
+    font-weight: 700;
+}
+.extensionimg {
+    width: 23rem;
+    text-align: center;
+    position: absolute;
+    left: 20vh;
+}
+.centered {
+    display: block;
+    text-align: center;
+}
+/* @media only screen and (max-width:600px){
+    .extensionimg{
+        width: 75%;
+        margin-left: 5vh;
+    }
+    .addPadding{
+        padding: 1rem 2rem;
+    }
+} */
+@media only screen and (max-width:600px){
+    .extensionimg{
+        width: 75%;
+        margin-left: 5vh;
+    }
+    .addPadding{
+        padding: 1rem 2rem;
+    }
+}
+@media only screen and (max-width:1024px){
+    .extensionimg{
+        left: 0vh;
+    }
+    .howjoworks {
+        margin: 25% 25% 15% 25%;
+    }
+}

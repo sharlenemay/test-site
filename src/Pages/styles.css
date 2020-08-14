@@ -1,0 +1,242 @@
+* {
+    /* font-family: 'Roboto', sans-serif; */
+    margin: 0;
+    padding: 0;
+    color: #082653;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 15px;
+}
+#mainJoTheFish {
+    width: 28rem;
+    position: absolute;
+    left: -1rem;
+}
+.alignheading {
+    margin: 2rem;
+}
+.aligntext {
+    font-size: 16px;
+    margin: 2rem;
+    text-align: left;
+}
+.centeralignheading {
+    padding: 7rem;
+    text-align: center;
+}
+#comingsoon {
+    font-family: 'Rokkitt', serif;
+    color: #4277DE;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 24px;
+    margin: 2rem;
+}
+h1 {
+    font-family: 'Rokkitt', serif;
+    font-weight: 700 !important;
+    /* background-image: linear-gradient(180deg,transparent 50%,#D8ECF8 0);
+    background-size: 15%; */
+}
+h2 {
+    font-family: 'Rokkitt', serif;
+    font-weight: 700 !important;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center !important;
+    color: #4277DE;
+}
+h3 {
+    font-family: 'Rokkitt', serif;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+}
+html, body {
+    height: 100%;
+}
+#blueJo {
+    margin-top: 10vh;
+}
+.whiteText {
+    color: #ffffff;
+}
+.underTheWave {
+    background-image: url(../Jo/wave_background.svg);
+    bottom: 0;
+}
+.teamUnderTheWave {
+    background-image: url(../Jo/wave_background.svg);
+    bottom: 0;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.teamUnderTheWave2 {
+    background-image: url(../Jo/wave_background.svg);
+    bottom: 0;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: none;
+}
+.member {
+    max-width: 20rem !important;
+    /* margin-bottom: 13rem; */
+    border-radius: 5px;
+}
+
+.form {
+    width: 40rem !important;
+    text-align: center;
+    margin: 0rem 2rem 5rem 2rem;
+    align-content: center;
+}
+.jumbotron {
+    justify-content: center;
+    padding: 5rem !important;
+    /* margin: 0% 25% 0% 25% !important; */
+    text-align: center;
+    background-color: transparent !important;
+    margin-bottom: 0 !important;
+}
+mark {
+    background-color: #D8ECF8 !important;
+}
+.jothefish {
+    justify-content: center;
+    margin: 0% 25% 15% 25%;
+    text-align: center !important;
+    margin-bottom: 5rem !important;
+    background-color: none !important;
+}
+img {
+    width: 12rem;
+    max-width: 100%;
+    cursor: pointer;
+}
+#landingjo {
+    width: 20rem;
+    padding: 0;
+}
+#rightalignjo {
+    text-align: right;
+    padding-left: none;
+}
+.btn {
+    background-color: #4EC8F4 !important;
+    border: none !important;
+    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #70D9FF 51%);
+    border-radius: 8%;
+    border: 0;
+    margin: 15px;
+    font-family: 'Robot', sans-serif;
+    font-weight: 700 !important;
+}
+.jumbotron.contact {
+    padding: 0rem;
+}
+.messageinput {
+    margin: 0rem 0rem 1rem 0rem;
+}
+.getinvolved { 
+    padding: 1rem 10rem 0rem 10rem;
+    text-align: left;
+}
+#blueDownArrow {
+    width: 1.5rem;
+}
+#arrowDown {
+    display: block;
+    padding-top: 8rem;
+}
+#mobileBlueJo {
+    display: none;
+}
+#mobileTeam {
+    padding-top: 15rem;
+}
+@media only screen and (max-width:600px){
+    .form{
+        width: 20rem !important;
+    }
+    #mainJoTheFish {
+        width: 100%;
+        left: 0rem;
+        padding: 0;
+    }
+    #arrowDown {
+        display: block;
+    }
+    .jumbotron {
+        justify-content: center;
+        padding: 2rem !important;
+        /* margin: 0% 25% 0% 25% !important; */
+        text-align: center;
+        background-color: transparent !important;
+        margin-bottom: 0 !important;
+    }
+    .getinvolved { 
+        padding: 1rem !important;
+        text-align: justify !important;
+    }
+    #partialJo {
+        width: 9rem;
+        position: absolute;
+        right: 0 !important;
+    }
+    #blueJo {
+        display: none;
+    }
+    #mobileBlueJo {
+        display: block;
+        text-align: left;
+        padding: 10rem 2rem !important;
+    }
+    .alignheading {
+        font-size: 30px;
+        margin: 3rem 1rem 1rem 0rem !important;
+    }
+    .aligntext {
+        font-size: 10px;
+        width: 9.5rem;
+        margin: 1rem 0rem !important;
+    }
+    #comingsoon {
+        font-size: 12px;
+        margin: 1rem 0rem !important;
+    }
+    .centeralignheading {
+        margin-top: 5rem;
+    }
+    .teamUnderTheWave2 {
+        display: block;
+    }
+}
+@media only screen and (min-device-width: 601px) and (max-width:1024px){
+    .form{
+        width: 40rem !important;
+    }
+    .getinvolved { 
+        padding: 1rem 5rem 0rem 5rem;
+        text-align: left;
+    }
+    #mainJoTheFish {
+        width: 20rem;
+        position: absolute;
+        left: -2rem;
+    }
+    #arrowDown {
+        display:none;
+    }
+    .teamUnderTheWave2 {
+        display: block;
+    }
+}
