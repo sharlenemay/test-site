@@ -34,7 +34,7 @@
 @media only screen and (max-width:600px){
     .extensionimg{
         width: 75%;
-        margin-left: 5vh;
+        margin-left: 3rem;
     }
     .addPadding{
         padding: 1rem 2rem;
@@ -44,7 +44,7 @@
     .extensionimg{
         left: 0vh;
     }
-    .howjoworks {
+    /* .howjoworks {
         margin: 25% 25% 15% 25%;
-    }
+    } */
 }
