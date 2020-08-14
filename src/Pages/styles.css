@@ -96,7 +96,7 @@ html, body {
 .form {
     width: 40rem !important;
     text-align: center;
-    margin: 0rem 2rem 5rem 2rem;
+    /* margin: 0rem 2rem 5rem 2rem; */
     align-content: center;
 }
 .jumbotron {
@@ -112,7 +112,7 @@ mark {
 }
 .jothefish {
     justify-content: center;
-    margin: 0% 25% 15% 25%;
+    /* margin: 0% 25% 15% 25%; */
     text-align: center !important;
     margin-bottom: 5rem !important;
     background-color: none !important;

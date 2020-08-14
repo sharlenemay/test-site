@@ -1,6 +1,6 @@
 .reactions {
     justify-content: center !important;
-    margin: 0% 25% 15% 25%;
+    margin: 0% 0% 15% 0%;
     text-align: center !important;
     margin-bottom: 25rem;
     display: block;
@@ -17,7 +17,7 @@
 .josreactions {
     /* justify-content: center; */
     position: relative;
-    margin: 0% 25% 15% 25%;
+    /* margin: 0% 25% 15% 25%; */
     text-align: center !important;
     height: 10rem;
     padding: 1rem;
