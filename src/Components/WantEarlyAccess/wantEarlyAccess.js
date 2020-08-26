@@ -1,64 +1,65 @@
 import React, { Component } from "react";
-import { Container, Form, Button } from "react-bootstrap";
-import { postMailchimp } from "../../utils/API";
+import { Container, Button } from "react-bootstrap";
+// import { postMailchimp } from "../../utils/API";
 // import axios from "axios";
+import MailchimpSubscribe from "react-mailchimp-subscribe";
 import "./wantEarlyAccess.css";
 
-export default class CustomForm extends Component {
-  state = {
-    email: "",
-    // error: ""
-  }
+const CustomForm = ({ status, message, onValidated }) => {
+  let email;
+  const submit = () => 
+  email &&
+  email.value.indexOf("@") > -1 &&
+  onValidated({
+    EMAIL: email.value
+  });
 
-  // const url = process.env.MAILCHIMP_URL
+  return (
+    <div
+    >
+      {status === "subscribing" && <div style={{color: "white"}}>Subscribing...</div>}
+      {status === "error" && (
+        <div
+          style={{color: "white"}}
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
+      )}
+      {status === "success" && (
+        <div
+          style={{ color: "white" }}
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
+      )}
+      <input
+        className="contactinput"
+        ref={node => (email = node)}
+        type="email"
+        placeholder="Email"
+      />
+      <br/>
+      <Button variant="primary" type="submit" onClick={submit}>Submit</Button>
+    </div>
+  );
+};
 
-  handleChange = (event) => {
-    this.setState({email: event.target.value})
-  };
-
-  handleSubmit = (event) => {
-    // event.preventDefault();
-    // // console.log(this.state);
-    const email = {
-      email: this.state.email
-    };
-    // axios
-    // .post(`/api/memberList/:email`, email)
-    // .then((res)=> {
-    //   console.log(res)
-    //   // console.log("You have been added to the list. Thank you!");
-    // })
-    // .catch((err) => {
-    //   console.log(err);
-    // })
-    event.preventDefault();
-    postMailchimp({
-      email_address: email
-    }).then(() => {
-      console.log("You have been added to the list. Thank you!");
-    }).catch(() => {
-      console.log("Email invalid. Please try again.");
-    })
-  };
+export default class EarlyAccess extends Component {
 
   render () {
+    const url = "https://projectdoright.us10.list-manage.com/subscribe/post?u=a8c9af7d809178a5bc0f75589&amp;id=d83f6d0a5d"
     return (
     <div>
-      {/* <MailchimpSubscribe url={url} /> */}
       <Container className="form" id="earlyAccess">
         <h2 id="wantEarlyAccess" className="whiteText">Want early access?</h2>
-        <Form onSubmit={this.handleSubmit}>
-          <Form.Control
-            className="contactinput"
-            type="email"
-            placeholder="Email"
-            onChange={this.handleChange}
-          />
-          <Button variant="primary" type="submit">
-            Submit
-          </Button>
-          {/* {error ? error : ""} */}
-        </Form>
+        <MailchimpSubscribe 
+          url={url}
+          render={({ subscribe, status, message }) => (
+            <CustomForm
+              status={status}
+              message={message}
+              onValidated={formData => subscribe(formData)}
+            />
+          )}
+        />
       </Container>
     </div>
   )};

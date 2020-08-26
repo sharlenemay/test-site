@@ -223,6 +223,7 @@ img {
 @media only screen and (min-device-width: 601px) and (max-width:1024px){
     .form{
         width: 40rem !important;
+        left: 0;
     }
     .getinvolved { 
         padding: 1rem 5rem 0rem 5rem;
