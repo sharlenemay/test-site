@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Jumbotron, Container, Form, Button } from "react-bootstrap";
 import axios from "axios";
 import "./styles.css";
-import {sendMail} from "../utils/API";
 
 export default class Contact extends Component {
   state = {
