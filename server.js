@@ -1,46 +1,29 @@
 const express = require("express");
-const Mailchimp = require("mailchimp-api-v3");
+const bodyParser = require("body-parser");
+const { createProxyMiddleware } = require('http-proxy-middleware');
+const cors = require("cors");
 require("dotenv").config();
 
-const mc_api_key = process.env.MAILCHIMP_API_KEY;
-const list_id = process.env.MAILING_LIST_ID;
+// const mc_api_key = process.env.MAILCHIMP_API_KEY;
+// const list_id = process.env.MAILING_LIST_ID;
 
 const app = express();
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(cors());
 
-const mailchimp = new Mailchimp(mc_api_key);
+const routes = require("./routes");
 
-const port = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static("public"));
 
-//routes
-// app.get('/' ...);
+// Add routes, both API and view
+app.use("/api", routes);
+app.use("/api", createProxyMiddleware({ target: 'http://localhost:3001/', changeOrigin: true }));
 
-app.get("/api/memberList", (req, res) => {
-  mailchimp
-  .get(`/lists/${list_id}/members`)
-  .then(function (results) {
-    res.send(results);
-  })
-  .catch(function (err) {
-    res.send(err);
-  });
-});
-app.post(`/api/memberList/:email`, (req, res) => {
-  mailchimp
-  .post(`/lists/${list_id}/members`, {
-    email_address: req.params.email,
-    status: "subscribed",
-  })
-  .then(() => {
-    console.log("email added");
-  })
-  .catch((err) => {
-    res.status(401).json(err);
-  });
-});
-
-app.listen(port);
-
-console.log(`express app listening on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`server starting at port ${PORT}`);
+})
