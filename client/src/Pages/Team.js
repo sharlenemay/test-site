@@ -97,11 +97,21 @@ export default function Team () {
         <Col>
           <Member 
             src={Micha}
-            alt="micha"
+            alt="myka"
+            role={teamData[8].role}
+            bio={teamData[8].bio}
+          />
+        </Col>
+        <Col>
+          <Member 
+            src={Micha}
+            alt="jay"
             role={teamData[9].role}
             bio={teamData[9].bio}
           />
         </Col>
+        <Col></Col>
+        <Col></Col>
         </Row>
       </Container>
     </Container>
@@ -158,7 +168,13 @@ export default function Team () {
           />
           <TeamMobile 
             src={Micha}
-            alt="micha"
+            alt="myka"
+            role={teamData[8].role}
+            bio={teamData[8].bio}
+          />
+          <TeamMobile 
+            src={Micha}
+            alt="jay"
             role={teamData[9].role}
             bio={teamData[9].bio}
           />
