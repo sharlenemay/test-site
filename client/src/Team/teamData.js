@@ -57,15 +57,15 @@ const teamData = [
     },
     {
         id: 9,
-        name: "Arthur Vranken",
-        role: "Head of Data Analysis",
+        name: "Myka Kugaya",
+        role: "Myka Kugaya / Developer",
         bio: "",
         img: "../Team/Poop-Emoji.png"
     },
     {
         id: 10,
-        name: "Micha Merckx",
-        role: "Micha Merckx / Reddit Advocate",
+        name: "Jay Park",
+        role: "Jay Park / Reddit Advocate",
         bio: "I'm from Antwerp, Belgium, and currently studying film in BXL. I like my Humus with extra Humus.",
         img: "../Team/micha.jpeg"
     }

@@ -7,10 +7,16 @@ import Reactions from "../Components/JoReactions/reactions";
 import HowJoWorks from "../Components/HowJoWorks/howjoworks";
 import SignUpEarlyAccess from "../Components/WantEarlyAccess/wantEarlyAccess";
 import downArrow from "../Jo/down_arrow.svg";
+import whiteDownArrow from "../Jo/white_down_arrow.svg";
 import { ScrollingProvider, SectionLink, Section } from "react-scroll-section";
 
 export default function Landing() {
-  // const targetRef = createRef();
+
+  const scrollToBottom = () => { window.scrollTo({
+    top: document.documentElement.scrollHeight,
+    behavior: "smooth"
+  })
+  }
 
   return (
     <ScrollingProvider>
@@ -77,10 +83,21 @@ export default function Landing() {
       </Section>
       <Container fluid className="underTheWave">
         <Reactions />
-        <Section id="subscribe">
-          <SignUpEarlyAccess />
-        </Section>
+        <SignUpEarlyAccess/>
+      <Row>
+          <Col className="centeralignheading" id="whiteArrowDown" xs={12} lg={12}>
+                <img
+                  id="whiteDownArrow"
+                  src={whiteDownArrow}
+                  alt="down"
+                  onClick={scrollToBottom}
+                />
+          </Col>
+        </Row>
       </Container>
+
+
     </ScrollingProvider>
+    
   );
 }

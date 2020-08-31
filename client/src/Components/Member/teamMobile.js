@@ -11,7 +11,7 @@ export default function TeamMobile (props) {
       <Col xs={12} sm={3} className="mobileMember" >
       <img className="mobileImg" src={props.src} alt={props.alt} />
       </Col>
-      <Col xs={12} sm={9}>
+      <Col className="mobileBioCol" xs={12} sm={9}>
       <Card id="mobileBio">
         <h3 className="whiteText">{props.role}</h3>
         {props.bio}

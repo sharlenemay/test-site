@@ -4,6 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
@@ -19,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/sharlenemay/test-site/issues"
   },
-  "homepage": "https://github.com/sharlenemay/test-site#readme",
+  "homepage": "https://sharlenemay.github.io/test-site",
   "dependencies": {
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
