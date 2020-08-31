@@ -67,6 +67,7 @@ html, body {
 .underTheWave {
     background-image: url(../Jo/1940px_longest_background.svg);
     bottom: 0;
+    background-size: 100%;
 }
 .teamUnderTheWave {
     background-image: url(../Jo/wave_background.svg);
@@ -229,6 +230,11 @@ img {
     .teamUnderTheWave2 {
         display: block;
     }
+    .underTheWave {
+        background-image: url(../Jo/1940px_longest_background.svg);
+        bottom: 0;
+        background-size: auto;
+    }
 }
 @media only screen and (min-device-width: 601px) and (max-width:1024px){
     .form{
@@ -252,5 +258,10 @@ img {
     }
     .teamUnderTheWave2 {
         display: block;
+    }
+    .underTheWave {
+        background-image: url(../Jo/1940px_longest_background.svg);
+        bottom: 0;
+        background-size: auto;
     }
 }
