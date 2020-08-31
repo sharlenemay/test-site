@@ -34,7 +34,7 @@ export default class Contact extends Component {
       message: this.state.message
     }
 
-    axios.post("/api/sendMail", data)
+    axios.post("http://localhost:3001/api/sendMail", data)
     .then((response)=>{
       this.setState({
         sent: true
@@ -63,7 +63,7 @@ export default class Contact extends Component {
         <Container className="form">
           <h2>Get In Touch</h2>
           <p>Want to find out more? Contact us!</p>
-          <Form onSubmit={this.handleSubmit.bind(this)} method="POST">
+          <Form onSubmit={this.handleSubmit.bind(this)} action="/sendMail" method="POST">
             <Form.Control
               className="messageinput"
               type="text"
