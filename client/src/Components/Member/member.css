@@ -36,12 +36,16 @@
     font-size: 15px;
     margin-bottom: 0;
 }
+.mobileBioCol {
+    padding: 0 !important;
+}
 .mobileImg {
     margin-bottom: 1.25rem;
     margin-top: 2rem;
 }
 .mobileMember {
     text-align: center;
+    padding-right: 0 !important;
 }
 .mobileRow {
     margin: 1rem 0rem;
