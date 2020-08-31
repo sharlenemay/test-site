@@ -9,21 +9,19 @@ router.post("/sendMail", (req, res) => {
     service: "Gmail",
     port: 465,
     auth: {
-      user: "mykakug129@gmail.com",
-      pass: "kim$oohyun00"
+      user: process.env.GMAIL_USER,
+      pass: process.env.GMAIL_PASS
     }
   })
 
   let mailOptions = {
     from: data.email,
-    to: "mykakug129@gmail.com",
+    to: process.env.GMAIL_USER,
     subject: "Jo the Fish Contact Form",
     html: `
-    <h3>Jo the Fish Contact Form</h3>
-    <ul>
-      <li>Name: ${data.name}</li>
-      <li>Email: ${data.email}</li>
-    </ul>
+    <h2>Jo the Fish Contact Form</h2>
+    <h4><strong>Name:</strong> ${data.name}</h4>
+    <h4><strong>Email:</strong> ${data.email}</h4>
     <h4>Message:</h4>
     <p>${data.message}</p>
     `
