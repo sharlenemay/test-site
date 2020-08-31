@@ -1,4 +1,4 @@
-import React from "react";
+import React, {createRef, useRef} from "react";
 import { Jumbotron, Row, Col, Container } from "react-bootstrap";
 import "./styles.css";
 import BlueJo from "../Jo/Jo-happy-blue-10-flat.svg";
@@ -10,6 +10,8 @@ import downArrow from "../Jo/down_arrow.svg";
 import { ScrollingProvider, SectionLink, Section } from "react-scroll-section";
 
 export default function Landing() {
+  // const targetRef = createRef();
+
   return (
     <ScrollingProvider>
       <Jumbotron id="blueJo">

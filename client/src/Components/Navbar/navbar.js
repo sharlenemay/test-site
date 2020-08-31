@@ -29,8 +29,8 @@ export default function Navigation () {
       {/* <Nav.Link className="navlink" href="/contact">CONTACT US</Nav.Link> */}
     </Link>
     </Nav>
-    <Link inline>
-      <Nav.Link className="signuplink" href="#">Sign up for early access!</Nav.Link>
+    <Link inline to="/#subscribe">
+      <Link className="signuplink" to="/#subscribe">Sign up for early access!</Link>
     </Link>
   </Navbar.Collapse>
 </Navbar>
