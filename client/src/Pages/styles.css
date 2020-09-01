@@ -67,7 +67,7 @@ html, body {
 .underTheWave {
     background-image: url(../Jo/1940px_longest_background.svg);
     bottom: 0;
-    background-size: 100%;
+    background-size: cover;
 }
 .teamUnderTheWave {
     background-image: url(../Jo/wave_background.svg);
@@ -170,6 +170,35 @@ img {
 }
 #mobileTeam {
     padding-top: 15rem;
+}
+@media only screen and (min-device-width: 1024px) and (max-width:1600px){
+    .form{
+        width: 40rem !important;
+        left: 0;
+    }
+    .getinvolved { 
+        padding: 1rem 5rem 0rem 5rem;
+        text-align: left;
+    }
+    #mainJoTheFish {
+        width: 20rem;
+        position: absolute;
+        left: -2rem;
+    }
+    #arrowDown {
+        display:none;
+    }
+    #whiteArrowDown {
+        display: block;
+    }
+    .teamUnderTheWave2 {
+        display: block;
+    }
+    .underTheWave {
+        background-image: url(../Jo/1940px_longest_background.svg);
+        bottom: 0;
+        background-size: auto;
+    }
 }
 @media only screen and (max-width:600px){
     .form{

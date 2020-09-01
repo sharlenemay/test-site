@@ -84,7 +84,7 @@ export default function Landing() {
       <Container fluid className="underTheWave">
         <Reactions />
         <SignUpEarlyAccess/>
-      <Row>
+        <Row>
           <Col className="centeralignheading" id="whiteArrowDown" xs={12} lg={12}>
                 <img
                   id="whiteDownArrow"

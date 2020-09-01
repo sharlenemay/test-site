@@ -30,7 +30,7 @@ export default function Navigation () {
     </Link>
     </Nav>
     <Link inline to="/#subscribe">
-      <Link className="signuplink" to="/#subscribe">Sign up for early access!</Link>
+      <a className="signuplink" to="/#subscribe">Sign up for early access!</a>
     </Link>
   </Navbar.Collapse>
 </Navbar>

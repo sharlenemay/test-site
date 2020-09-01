@@ -48,7 +48,7 @@ export default class EarlyAccess extends Component {
     const url = "https://projectdoright.us10.list-manage.com/subscribe/post?u=a8c9af7d809178a5bc0f75589&amp;id=d83f6d0a5d"
     return (
     <div>
-      <Container className="form" id="earlyAccess">
+      <Container className="form" id={"earlyAccess"}>
         <h2 id="wantEarlyAccess" className="whiteText">Want early access?</h2>
         <MailchimpSubscribe 
           url={url}
