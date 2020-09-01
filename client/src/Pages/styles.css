@@ -169,7 +169,7 @@ img {
     display: none;
 }
 #mobileTeam {
-    padding-top: 15rem;
+    padding-top: 10rem;
 }
 @media only screen and (min-device-width: 1024px) and (max-width:1600px){
     .form{

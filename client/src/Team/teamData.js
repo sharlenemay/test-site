@@ -50,16 +50,16 @@ const teamData = [
     },
     {
         id: 8,
-        name: "Jeffrey Cruz",
-        role: "Jeffrey Cruz / Content Designer",
-        bio: "A New York City native, and undergrad at Boston College studying fine arts and psychology.",
-        img: "../Team/Poop-Emoji.png"
+        name: "Myka Kugaya",
+        role: "Myka Kugaya / Developer",
+        bio: "Full-stack web developer with a biochemistry/psychology background, currently completing my CS degree at Boston University.",
+        img: "../Team/myka.JPG"
     },
     {
         id: 9,
-        name: "Myka Kugaya",
-        role: "Myka Kugaya / Developer",
-        bio: "",
+        name: "Jeffrey Cruz",
+        role: "Jeffrey Cruz / Content Designer",
+        bio: "A New York City native, and undergrad at Boston College studying fine arts and psychology.",
         img: "../Team/Poop-Emoji.png"
     },
     {

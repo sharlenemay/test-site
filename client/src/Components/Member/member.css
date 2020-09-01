@@ -33,6 +33,7 @@
     width: 100%;
     text-align: left;
     padding: 1rem;
+    margin: 1rem;
     font-size: 15px;
     margin-bottom: 0;
 }
@@ -42,6 +43,7 @@
 .mobileImg {
     margin-bottom: 1.25rem;
     margin-top: 2rem;
+    border-radius: 15px;
 }
 .mobileMember {
     text-align: center;
@@ -49,6 +51,8 @@
 }
 .mobileRow {
     margin: 1rem 0rem;
+    width: 100%;
+    justify-content: center;
 }
 .membersLowerGrid {
     padding-bottom: 15vh;
@@ -68,7 +72,7 @@
         margin-top: 0rem;
     }
     #mobileBio {
-        margin-top: 1rem;
-        width: 45rem;
+        margin-top: 0rem;
+        width: 100%;
     }
 }
