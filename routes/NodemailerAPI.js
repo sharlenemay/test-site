@@ -4,7 +4,6 @@ const nodemailer = require("nodemailer");
 // Contact form post
 router.post("/sendMail", (req, res) => {
   let data = req.body;
-  console.log(data);
   let smtpTransport = nodemailer.createTransport({
     service: "Gmail",
     port: 465,
