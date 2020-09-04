@@ -2,6 +2,8 @@ import React from "react";
 import "./navbar.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Scroll from 'react-scroll'
+const ScrollLink = Scroll.ScrollLink
 // import { ScrollingProvider, SectionLink, Section } from "react-scroll-section";
 
 
@@ -29,10 +31,21 @@ export default function Navigation () {
       {/* <Nav.Link className="navlink" href="/contact">CONTACT US</Nav.Link> */}
     </Link>
     </Nav>
-    <Link inline to="/#subscribe">
-      <a className="signuplink" to="/#subscribe">Sign up for early access!</a>
+    <Link className="signuplink" inline to="subscribe" containerId="subscribeContainer">
+      {/* <a className="signuplink" to="/#subscribe"> */}
+        Sign up for early access!
+        {/* </a> */}
     </Link>
   </Navbar.Collapse>
+  {/* <ScrollLink 
+        to="subscribe" 
+        spy={true} 
+        smooth={true} 
+        duration={500} 
+        className='signuplink' 
+        activeClass='some-active-class'
+      >Sign up for early access!
+  </ScrollLink> */}
 </Navbar>
     </div>
   );

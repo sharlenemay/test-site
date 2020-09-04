@@ -25,6 +25,7 @@
     font-family: 'Rokkitt', serif;
     font-size: 20px;
     font-weight: 500;
+    color: #4277DE;
 }
 .navbar .navbar-nav>li>a, .navbar .navbar-nav>li>a:hover {
     color: #fff;

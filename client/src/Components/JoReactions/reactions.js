@@ -134,6 +134,7 @@ export default function Reactions() {
               ) : (
                 <img
                   src={ShadedHappyJo}
+                  className="shadedJo"
                   alt="happy jo"
                   onMouseOver={() => setShowHappyJo(true)}
                   onMouseOut={() => setShowHappyJo(false)}
@@ -153,6 +154,7 @@ export default function Reactions() {
                 <img
                   src={ShadedSickJo}
                   alt="sick jo"
+                  className="shadedJo"
                   onMouseOver={() => setShowSickJo(true)}
                   onMouseOut={() => setShowSickJo(false)}
                 />
@@ -171,6 +173,7 @@ export default function Reactions() {
                 <img
                   src={ShadedConfusedJo}
                   alt="sick jo"
+                  className="shadedJo"
                   onMouseOver={() => setShowConfusedJo(true)}
                   onMouseOut={() => setShowConfusedJo(false)}
                 />
@@ -189,6 +192,7 @@ export default function Reactions() {
                 <img
                   src={ShadedNeutralJo}
                   alt="neutral jo"
+                  className="shadedJo"
                   onMouseOver={() => setShowNeutralJo(true)}
                   onMouseOut={() => setShowNeutralJo(false)}
                 />
