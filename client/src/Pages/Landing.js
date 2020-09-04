@@ -1,4 +1,5 @@
 import React, {createRef, useRef} from "react";
+import { Element } from 'react-scroll'
 import { Jumbotron, Row, Col, Container } from "react-bootstrap";
 import "./styles.css";
 import BlueJo from "../Jo/Jo-happy-blue-10-flat.svg";
@@ -83,7 +84,12 @@ export default function Landing() {
       </Section>
       <Container fluid className="underTheWave">
         <Reactions />
-        <SignUpEarlyAccess/>
+        <div id="subscribeContainer">
+        <Element name= "subscribe">
+          <SignUpEarlyAccess/>
+        </Element>
+        </div>
+        
         <Row>
           <Col className="centeralignheading" id="whiteArrowDown" xs={12} lg={12}>
                 <img

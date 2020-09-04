@@ -127,6 +127,10 @@
 }
 .hoveredJo {
     margin-top: 3rem;
+    transition: all 0.2s ease-in;
+}
+.shadedJo {
+    transition: all 0.2s ease-in;
 }
 
 @media only screen and (max-width:401px){

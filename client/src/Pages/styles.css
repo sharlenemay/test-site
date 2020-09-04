@@ -65,7 +65,7 @@ html, body {
     color: #ffffff;
 }
 .underTheWave {
-    background-image: url(../Jo/1940px_longest_background.svg);
+    background-image: url(../Jo/wave_background.svg);
     bottom: 0;
     background-size: cover;
 }
@@ -129,6 +129,7 @@ img {
 }
 #rightalignjo {
     text-align: right;
+    right: 3rem;
     padding-left: none;
 }
 .btn {
@@ -171,7 +172,7 @@ img {
 #mobileTeam {
     padding-top: 10rem;
 }
-@media only screen and (min-device-width: 1024px) and (max-width:1600px){
+@media only screen and (min-device-width: 1025px) and (max-width:1600px){
     .form{
         width: 40rem !important;
         left: 0;
@@ -181,21 +182,22 @@ img {
         text-align: left;
     }
     #mainJoTheFish {
-        width: 20rem;
+        width: 27rem;
         position: absolute;
         left: -2rem;
     }
     #arrowDown {
-        display:none;
+        display: block;
+        top: 4rem;
     }
     #whiteArrowDown {
         display: block;
     }
     .teamUnderTheWave2 {
-        display: block;
+        display: none;
     }
     .underTheWave {
-        background-image: url(../Jo/1940px_longest_background.svg);
+        background-image: url(../Jo/wave_background.svg);
         bottom: 0;
         background-size: auto;
     }
