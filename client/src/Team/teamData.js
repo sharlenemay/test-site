@@ -52,7 +52,7 @@ const teamData = [
         id: 8,
         name: "Myka Kugaya",
         role: "Myka Kugaya / Developer",
-        bio: "Full-stack web developer with a biochemistry/psychology background, currently completing my CS degree at Boston University.",
+        bio: "Full-stack web developer with a biochemistry/molecular biology background, working towards my BA in computer science at Boston University. I am currently based in California (due to COVID) and am passionate about personality/cognitive psychology, camera technology, and traveling to experience different regions of the world.",
         img: "../Team/myka.JPG"
     },
     {
