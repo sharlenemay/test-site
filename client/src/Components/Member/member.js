@@ -26,7 +26,7 @@ export default function Member(props) {
   }, []);
   return (
     <div ref={node}>
-      <img src={props.src} alt={props.alt} onClick={() => setOpen(!open)} />
+      <img style={{borderRadius:"5%"}} src={props.src} alt={props.alt} onClick={() => setOpen(!open)} />
 
       {open && (
           <Card id="showBio">

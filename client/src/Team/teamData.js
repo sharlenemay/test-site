@@ -65,8 +65,8 @@ const teamData = [
     {
         id: 10,
         name: "Jay Park",
-        role: "Jay Park / Reddit Advocate",
-        bio: "I'm from Antwerp, Belgium, and currently studying film in BXL. I like my Humus with extra Humus.",
+        role: "Jay Park / Data Analyst",
+        bio: "I",
         img: "../Team/micha.jpeg"
     }
 ]

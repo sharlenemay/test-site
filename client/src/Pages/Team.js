@@ -12,7 +12,7 @@ import Allan from "../Team/allan.jpg";
 import Jeffrey from "../Team/jeffrey.jpeg";
 import Jinny from "../Team/jinny.JPG";
 import Sharlene from "../Team/sharlene.png";
-import Micha from "../Team/micha.jpg";
+import Jay from "../Team/placeholder.png";
 import Myka from "../Team/myka.JPG";
 
 export default function Team () {
@@ -105,7 +105,7 @@ export default function Team () {
         </Col>
         <Col>
           <Member 
-            src={Micha}
+            src={Jay}
             alt="jay"
             role={teamData[9].role}
             bio={teamData[9].bio}
@@ -174,7 +174,7 @@ export default function Team () {
             bio={teamData[8].bio}
           />
           <TeamMobile 
-            src={Micha}
+            src={Jay}
             alt="jay"
             role={teamData[9].role}
             bio={teamData[9].bio}
