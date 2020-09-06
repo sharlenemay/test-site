@@ -199,7 +199,10 @@ img {
     .underTheWave {
         background-image: url(../Jo/wave_background.svg);
         bottom: 0;
-        background-size: auto;
+        background-size: cover;
+    }
+    #blueJo {
+        margin-top: 15vh;
     }
 }
 @media only screen and (max-width:600px){
@@ -267,7 +270,7 @@ img {
         background-size: auto;
     }
 }
-@media only screen and (min-device-width: 601px) and (max-width:1024px){
+@media only screen and (min-device-width: 766px) and (max-width:1024px){
     .form{
         width: 40rem !important;
         left: 0;
@@ -286,6 +289,71 @@ img {
     }
     #whiteArrowDown {
         display: block;
+    }
+    .teamUnderTheWave2 {
+        display: block;
+    }
+    .underTheWave {
+        background-image: url(../Jo/1940px_longest_background.svg);
+        bottom: 0;
+        background-size: auto;
+    }
+}
+@media only screen and (min-device-width: 601px) and (max-width:765px){
+    .form{
+        width: 20rem !important;
+    }
+    #mainJoTheFish {
+        width: 100%;
+        left: 0rem;
+        padding: 0;
+    }
+    #arrowDown {
+        display: block;
+    }
+    #whiteArrowDown {
+        display: none;
+    }
+    .jumbotron {
+        justify-content: center;
+        padding: 2rem !important;
+        /* margin: 0% 25% 0% 25% !important; */
+        text-align: center;
+        background-color: transparent !important;
+        margin-bottom: 0 !important;
+    }
+    .getinvolved { 
+        padding: 1rem !important;
+        text-align: justify !important;
+    }
+    #partialJo {
+        width: 9rem;
+        position: absolute;
+        right: 0 !important;
+    }
+    #blueJo {
+        display: none;
+    }
+    #mobileBlueJo {
+        display: block;
+        text-align: left;
+        padding: 10rem 2rem !important;
+    }
+    .alignheading {
+        font-size: 30px;
+        margin: 3rem 1rem 1rem 0rem !important;
+    }
+    .aligntext {
+        font-size: 10px;
+        width: 9.5rem;
+        margin: 1rem 0rem !important;
+    }
+    #comingsoon {
+        font-size: 12px;
+        margin: 1rem 0rem !important;
+    }
+    .centeralignheading {
+        margin-top: 5rem;
     }
     .teamUnderTheWave2 {
         display: block;
