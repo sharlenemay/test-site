@@ -22,7 +22,7 @@
     padding: 1rem;
     margin: 1rem;
     font-size: 15px;
-    left: -15vh;
+    left: -8.5vw;
 }
 #mobileBio {
     background: rgba(255, 255, 255, 0.2);
@@ -88,6 +88,11 @@
         padding: 1rem;
         margin: 1rem;
         font-size: 15px;
-        left: -10vh;
+        left: -5vw;
+    }
+}
+@media only screen and (min-device-width: 1600px) {
+    #showBio {
+        left: -6.5vw;
     }
 }

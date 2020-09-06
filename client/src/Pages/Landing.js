@@ -28,7 +28,9 @@ export default function Landing() {
           </Col>
           <Col xs={12} sm={12} md={6} lg={6}>
             <Container id="mainJoTheFish">
-              <h1 className="alignheading">Jo the Fish</h1>
+              <div className="center">
+                <h1 className="alignheading">Jo the Fish</h1>
+              </div>
               <p className="aligntext">
                 Jo sits in your browser and will warn you when something smells
                 a bit fishy.

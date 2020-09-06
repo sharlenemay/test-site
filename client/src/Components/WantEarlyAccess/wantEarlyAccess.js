@@ -37,7 +37,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         placeholder="Email"
       />
       <br/>
-      <Button variant="primary" type="submit" onClick={submit}>Submit</Button>
+      <Button variant="primary" type="submit" onClick={submit}>Sign Up</Button>
     </div>
   );
 };
@@ -49,7 +49,7 @@ export default class EarlyAccess extends Component {
     return (
     <div>
       <Container className="form" id={"earlyAccess"}>
-        <h2 id="wantEarlyAccess" className="whiteText">Want early access?</h2>
+        <h2 id="wantEarlyAccess" className="whiteText">Join our Newsletter!</h2>
         <MailchimpSubscribe 
           url={url}
           render={({ subscribe, status, message }) => (

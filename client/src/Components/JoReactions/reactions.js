@@ -26,22 +26,26 @@ export default function Reactions() {
     <div>
       <Container fluid className="reactions">
         <Container>
-          <Row className="getToKnowJo">
+          <Row id="gettoknow">
             <h2 className="whiteText">Get to Know Jo</h2>
-            <p className="whiteText">
-              Jo is deeply allergic to: any type of discrimination, hate speech,
-              unethical business practices, racial inequality, links to 'dirty
-              money', privacy invasion, modern slavery, child labor, mass
-              pollution, public-misinformation for self gain, funding of
-              anti-LGBTQIA+ organizations, human-rights violations...{" "}
-            </p>
-            <p className="whiteText">
-              {" "}
-              Jo likes people and businesses who do right for the community,
-              people who own up to their mistakes and use it as fuel to drive
-              drastic change, people that fight for positive impact.
-            </p>
           </Row>
+
+          <Row className="getToKnowJo">
+            <p className="whiteText">
+            Jo is deeply allergic to: any type of discrimination, hate speech,
+            unethical business practices, racial inequality, links to 'dirty
+            money', privacy invasion, modern slavery, child labor, mass
+            pollution, public-misinformation for self gain, funding of
+            anti-LGBTQIA+ organizations, human-rights violations...{" "}
+          </p>
+          <p className="whiteText">
+            {" "}
+            Jo likes people and businesses who do right for the community,
+            people who own up to their mistakes and use it as fuel to drive
+            drastic change, people that fight for positive impact.
+          </p>
+          </Row>
+        
 
           {/* mobile */}
           <Container id="mobileJos">

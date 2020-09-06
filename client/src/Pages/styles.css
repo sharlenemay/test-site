@@ -40,7 +40,7 @@ h1 {
     font-family: 'Rokkitt', serif;
     font-weight: 700 !important;
     /* background-image: linear-gradient(180deg,transparent 50%,#D8ECF8 0);
-    background-size: 15%; */
+    background-size: auto; */
 }
 h2 {
     font-family: 'Rokkitt', serif;
@@ -59,7 +59,7 @@ html, body {
     height: 100%;
 }
 #blueJo {
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 .whiteText {
     color: #ffffff;
@@ -106,7 +106,7 @@ html, body {
     /* margin: 0% 25% 0% 25% !important; */
     text-align: center;
     background-color: transparent !important;
-    margin-bottom: 0 !important;
+    margin-bottom: 19vh !important;
 }
 mark {
     background-color: #D8ECF8 !important;
@@ -157,7 +157,8 @@ img {
 }
 #arrowDown {
     display: block;
-    padding-top: 8rem;
+    padding-top: 22vh;
+    padding-bottom: 2vh;
 }
 #whiteDownArrow {
     width: 1.5rem;

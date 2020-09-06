@@ -7,9 +7,16 @@
 }
 .getToKnowJo {
     text-align: left !important;
-    padding-top: 60vh;
     padding-bottom: 18vh;
 }
+
+#gettoknow {
+    text-align: center !important;
+    padding-top: 60vh;
+    justify-content: center;
+    padding-bottom: 1vh;
+}
+
 .addingImgMargins {
     padding: 0 !important;
     margin-right: 5rem;

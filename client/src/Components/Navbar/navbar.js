@@ -31,11 +31,11 @@ export default function Navigation () {
       {/* <Nav.Link className="navlink" href="/contact">CONTACT US</Nav.Link> */}
     </Link>
     </Nav>
-    <Link className="signuplink" inline to="subscribe" containerId="subscribeContainer">
-      {/* <a className="signuplink" to="/#subscribe"> */}
+    {/* <Link className="signuplink" inline to="subscribe" containerId="subscribeContainer">
+      <a className="signuplink" to="/#subscribe">
         Sign up for early access!
-        {/* </a> */}
-    </Link>
+        </a>
+    </Link> */}
   </Navbar.Collapse>
   {/* <ScrollLink 
         to="subscribe" 
