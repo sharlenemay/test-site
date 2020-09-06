@@ -53,7 +53,7 @@
     text-align: left;
     padding: 1rem;
     margin: 3rem;
-    left: 1rem;
+    left: 8%;
     line-height: 20px;
     font-size: 15px;
 }
@@ -68,7 +68,7 @@
     text-align: left;
     padding: 1rem;
     margin: 3rem;
-    left: 20rem;
+    left: 24%;
     line-height: 20px;
     font-size: 15px;
 }
@@ -83,7 +83,7 @@
     text-align: left;
     padding: 1rem;
     margin: 3rem;
-    left: 38rem;
+    left: 41%;
     line-height: 20px;
     font-size: 15px;
 }
@@ -98,7 +98,7 @@
     text-align: left;
     padding: 1rem;
     margin: 3rem;
-    left: 55rem;
+    left: 59%;
     line-height: 20px;
     font-size: 15px;
 }
@@ -216,5 +216,57 @@
         text-align: left;
         padding: 1rem;
         margin: 3rem 0rem;
+    }
+}
+
+@media only screen and (min-device-width: 1025px) and (max-width:1100px){
+    #happyJoText {
+        left: 0vw;
+    }
+    #sickJoText {
+        left: 10vw;
+
+    }
+    #confusedJoText {
+        left: 35vw;
+
+    }
+    #neutralJoText {
+        left: 55vw;
+
+    }
+}
+@media only screen and (min-device-width: 1101px) and (max-width:1549px){
+    #happyJoText {
+        left: 0vw;
+    }
+    #sickJoText {
+        left: 18vw;
+
+    }
+    #confusedJoText {
+        left: 40vw;
+
+    }
+    #neutralJoText {
+        left: 60vw;
+
+    }
+}
+@media only screen and (min-device-width: 1550px){
+    #happyJoText {
+        left: 12vw;
+    }
+    #sickJoText {
+        left: 27vw;
+
+    }
+    #confusedJoText {
+        left: 42vw;
+
+    }
+    #neutralJoText {
+        left: 57vw;
+
     }
 }
