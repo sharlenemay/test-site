@@ -65,9 +65,9 @@ const teamData = [
     {
         id: 10,
         name: "Jay Park",
-        role: "Jay Park / Data Analyst",
-        bio: "I",
-        img: "../Team/micha.jpeg"
+        role: "Jay Park / Project Manager",
+        bio: "Graduate of University of Toronto in Philosophy. I love to exercise and go on physically demanding adventures! I love to learn and try new things and have the enduring hobby of cooking. I believe that we are entering an era of responsibility, and promoting informed purchasing is something that is desperately needed in this day and age.",
+        img: "../Team/placeholder.png"
     }
 ]
 
