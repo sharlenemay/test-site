@@ -11,7 +11,7 @@ import Maggie from "../Team/maggie.jpg";
 import Allan from "../Team/allan.jpg";
 import Jeffrey from "../Team/jeffrey.jpeg";
 import Jinny from "../Team/jinny.JPG";
-import Sharlene from "../Team/sharlene.png";
+import Sharlene from "../Team/sharlene.jpeg";
 import Jay from "../Team/placeholder.png";
 import Myka from "../Team/myka.JPG";
 
