@@ -9,6 +9,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
+    "build": "cd client && npm install --only=dev && npm install && npm run build",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
@@ -38,5 +39,8 @@
     "nodemon": "^2.0.4",
     "react-mailchimp-subscribe": "^2.1.0",
     "react-scroll": "^1.8.1"
+  },
+  "engines": {
+    "node": "12.18.2"
   }
 }

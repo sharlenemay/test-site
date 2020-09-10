@@ -34,7 +34,7 @@ export default class Contact extends Component {
       message: this.state.message
     }
 
-    axios.post("http://localhost:3001/api/sendMail", data)
+    axios.post("https://jothefishapi.herokuapp.com/api/sendMail", data)
     .then((response)=>{
       this.setState({
         sent: true
