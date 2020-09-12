@@ -1,279 +1,325 @@
 .reactions {
-    justify-content: center !important;
-    /* margin: 0% 0% 15% 0%; */
-    text-align: center !important;
-    margin-bottom: 25rem;
-    display: block;
+  justify-content: center !important;
+  /* margin: 0% 0% 15% 0%; */
+  text-align: center !important;
+  margin-bottom: 25rem;
+  display: block;
 }
 .getToKnowJo {
-    text-align: left !important;
-    padding-bottom: 18vh;
+  text-align: left !important;
+  padding-bottom: 18vh;
 }
 
 #gettoknow {
-    text-align: center !important;
-    padding-top: 60vh;
-    justify-content: center;
-    padding-bottom: 1vh;
+  text-align: center !important;
+  padding-top: 65vh;
+  justify-content: center;
+  padding-bottom: 1vh;
 }
 
 .addingImgMargins {
-    padding: 0 !important;
-    margin-right: 5rem;
+  padding: 0 !important;
+  margin-right: 5rem;
 }
 .josreactions {
-    /* justify-content: center; */
-    position: relative;
-    /* margin: 0% 25% 15% 25%; */
-    text-align: center !important;
-    height: 10rem;
-    padding: 1rem;
-    margin-bottom: 5rem !important;
-    border-radius: 12px;
-    color: #ffffff;
+  /* justify-content: center; */
+  position: relative;
+  /* margin: 0% 25% 15% 25%; */
+  text-align: center !important;
+  height: 10rem;
+  padding: 1rem;
+  margin-bottom: 5rem !important;
+  border-radius: 12px;
+  color: #ffffff;
 }
 .fadein-enter {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  .fadein-enter-active {
-    opacity: 1;
-    transform: translateX(0);
-    transition: opacity 300ms, transform 300ms;
-  }
-  .fadein-exit {
-    opacity: 1;
-  }
-  .fadein-exit-active {
-    opacity: 0;
-    transform: scale(0.9);
-    transition: opacity 300ms, transform 300ms;
-  }
+  opacity: 0;
+  transform: scale(0.9);
+}
+.fadein-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.fadein-exit {
+  opacity: 1;
+}
+.fadein-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
 #happyJoText {
-    background: rgba(255, 255, 255, 0.2);
-    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
-    border: none;
-    border-radius: 15px;
-    color: white;
-    width: 26rem;
-    position: absolute;
-    text-align: left;
-    padding: 1rem;
-    margin: 3rem;
-    left: 8%;
-    line-height: 20px;
-    font-size: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  background-image: linear-gradient(
+    180deg,
+    #ffff0000 25%,
+    #ffffff00 50%,
+    rgba(255, 255, 255, 0.1) 50%
+  );
+  border: none;
+  border-radius: 15px;
+  color: white;
+  width: 26rem;
+  position: absolute;
+  text-align: left;
+  padding: 1rem;
+  margin: 3rem;
+  left: 8%;
+  line-height: 20px;
+  font-size: 15px;
 }
 #sickJoText {
-    background: rgba(255, 255, 255, 0.2);
-    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
-    border: none;
-    border-radius: 15px;
-    color: white;
-    width: 26rem;
-    position: absolute;
-    text-align: left;
-    padding: 1rem;
-    margin: 3rem;
-    left: 24%;
-    line-height: 20px;
-    font-size: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  background-image: linear-gradient(
+    180deg,
+    #ffff0000 25%,
+    #ffffff00 50%,
+    rgba(255, 255, 255, 0.1) 50%
+  );
+  border: none;
+  border-radius: 15px;
+  color: white;
+  width: 26rem;
+  position: absolute;
+  text-align: left;
+  padding: 1rem;
+  margin: 3rem;
+  left: 24%;
+  line-height: 20px;
+  font-size: 15px;
 }
 #confusedJoText {
-    background: rgba(255, 255, 255, 0.2);
-    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
-    border: none;
-    border-radius: 15px;
-    color: white;
-    width: 26rem;
-    position: absolute;
-    text-align: left;
-    padding: 1rem;
-    margin: 3rem;
-    left: 41%;
-    line-height: 20px;
-    font-size: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  background-image: linear-gradient(
+    180deg,
+    #ffff0000 25%,
+    #ffffff00 50%,
+    rgba(255, 255, 255, 0.1) 50%
+  );
+  border: none;
+  border-radius: 15px;
+  color: white;
+  width: 26rem;
+  position: absolute;
+  text-align: left;
+  padding: 1rem;
+  margin: 3rem;
+  left: 41%;
+  line-height: 20px;
+  font-size: 15px;
 }
 #neutralJoText {
-    background: rgba(255, 255, 255, 0.2);
-    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%);
-    border: none;
-    border-radius: 15px;
-    color: white;
-    width: 26rem;
-    position: absolute;
-    text-align: left;
-    padding: 1rem;
-    margin: 3rem;
-    left: 59%;
-    line-height: 20px;
-    font-size: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  background-image: linear-gradient(
+    180deg,
+    #ffff0000 25%,
+    #ffffff00 50%,
+    rgba(255, 255, 255, 0.1) 50%
+  );
+  border: none;
+  border-radius: 15px;
+  color: white;
+  width: 26rem;
+  position: absolute;
+  text-align: left;
+  padding: 1rem;
+  margin: 3rem;
+  left: 59%;
+  line-height: 20px;
+  font-size: 15px;
 }
 
 #mobileJos {
-    display: none;
+  display: none;
 }
 #ipadJos {
-    display: none;
+  display: none;
 }
 .mobileReactions {
+  background: rgba(255, 255, 255, 0.2) !important;
+  background-image: linear-gradient(
+    180deg,
+    #ffff0000 25%,
+    #ffffff00 50%,
+    rgba(255, 255, 255, 0.1) 50%
+  ) !important;
+  border: none;
+  border-radius: 16px !important;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+  margin: 3rem 0rem;
+}
+.mobileJo {
+  width: 100px;
+  position: absolute;
+  z-index: 2;
+  left: 12rem;
+}
+.hoveredJo {
+  margin-top: 3rem;
+  transition: all 0.2s ease-in;
+}
+.shadedJo {
+  transition: all 0.2s ease-in;
+}
+
+@media only screen and (max-width: 280px) {
+    .mobileCol {
+      padding: 0 !important;
+    }
+    #landingjo {
+      width: 15rem;
+      position: absolute;
+      z-index: 2;
+      right: -2rem;
+    }
+    #fourjos {
+      display: none;
+    }
+    #mobileJos {
+      display: block;
+    }
+    .getToKnowJo {
+      text-align: left !important;
+      padding-bottom: 3vh;
+      /* padding-top: 5vh; */
+    }
+    #gettoknow {
+      padding-top: 30vh;
+    }
+    .reactions {
+      margin-bottom: 0rem;
+      padding-top: 0rem;
+    }
+    .mobileJo {
+      width: 100px;
+      position: absolute;
+      z-index: 2;
+      left: 50vw;
+    }
+  }
+    
+@media only screen and (min-device-width: 281px) and (max-width: 601px) {
+  .mobileCol {
+    padding: 0 !important;
+  }
+  #landingjo {
+    width: 15rem;
+    position: absolute;
+    z-index: 2;
+    right: -2rem;
+  }
+  #fourjos {
+    display: none;
+  }
+  #mobileJos {
+    display: block;
+  }
+
+  .getToKnowJo {
+    text-align: left !important;
+    padding-bottom: 3vh;
+    /* padding-top: 60vh;
+        margin-top: 30vh; */
+  }
+  #gettoknow {
+      padding-top: 75vh;
+  }
+  .reactions {
+    margin-bottom: 0rem;
+    padding-top: 0rem;
+  }
+}
+
+@media only screen and (min-device-width: 602px) and (max-width: 767px) {
+  #fourjos {
+    display: none;
+  }
+  #ipadJos {
+    display: block;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  #fourjos {
+    display: none;
+  }
+  #mobileJos {
+    display: none;
+  }
+  #ipadJos {
+    display: block;
+  }
+  .getToKnowJo {
+    text-align: left !important;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+  #gettoknow {
+    padding-top: 0;
+  }
+  .reactions {
+    margin-bottom: 10rem;
+    padding-top: 15rem;
+  }
+  .mobileReactions {
     background: rgba(255, 255, 255, 0.2) !important;
-    background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%) !important;
+    background-image: linear-gradient(
+      180deg,
+      #ffff0000 25%,
+      #ffffff00 50%,
+      rgba(255, 255, 255, 0.1) 50%
+    ) !important;
     border: none;
     border-radius: 16px !important;
     color: white;
     text-align: left;
     padding: 1rem;
     margin: 3rem 0rem;
-}
-.mobileJo {
-    width: 100px;
-    position: absolute;
-    z-index: 2;
-    left: 12rem;
-}
-.hoveredJo {
-    margin-top: 3rem;
-    transition: all 0.2s ease-in;
-}
-.shadedJo {
-    transition: all 0.2s ease-in;
+  }
 }
 
-@media only screen and (max-width:401px){
-    .mobileCol {
-        padding: 0 !important;
-    }
-    #landingjo {
-        width: 15rem;
-        position: absolute;
-        z-index: 2;
-        right: -2rem;
-    }
-    #fourjos {
-        display: none;
-    }
-    #mobileJos {
-        display: block;
-    }
-    .getToKnowJo {
-        text-align: left !important;
-        padding-bottom: 3vh;
-        padding-top: 60vh;
-    }
-    .reactions {
-        margin-bottom: 0rem;
-        padding-top: 0rem;
-
-    }
+@media only screen and (min-device-width: 1025px) and (max-width: 1100px) {
+  #happyJoText {
+    left: 0vw;
+  }
+  #sickJoText {
+    left: 10vw;
+  }
+  #confusedJoText {
+    left: 35vw;
+  }
+  #neutralJoText {
+    left: 55vw;
+  }
 }
-@media only screen and (min-device-width: 401px) and (max-width:601px){
-    .mobileCol {
-        padding: 0 !important;
-    }
-    #landingjo {
-        width: 15rem;
-        position: absolute;
-        z-index: 2;
-        right: -2rem;
-    }
-    #fourjos {
-        display: none;
-    }
-    #mobileJos {
-        display: block;
-    }
-    .getToKnowJo {
-        text-align: left !important;
-        padding-bottom: 3vh;
-        padding-top: 60vh;
-        margin-top: 30vh;
-    }
-    .reactions {
-        margin-bottom: 0rem;
-        padding-top: 0rem;
-
-    }
+@media only screen and (min-device-width: 1101px) and (max-width: 1549px) {
+  #happyJoText {
+    left: 0vw;
+  }
+  #sickJoText {
+    left: 18vw;
+  }
+  #confusedJoText {
+    left: 40vw;
+  }
+  #neutralJoText {
+    left: 60vw;
+  }
 }
-@media only screen and (min-device-width: 601px) and (max-width:1024px){
-    #fourjos{
-        display: none;
-    }
-    #mobileJos {
-        display: none;
-    }
-    #ipadJos {
-        display: block;
-    }
-    .getToKnowJo {
-        text-align: left !important;
-        padding-top: 5vh;
-        padding-bottom: 10vh;
-    }
-    .reactions {
-        margin-bottom: 10rem;
-        padding-top: 15rem;
-    }
-    .mobileReactions {
-        background: rgba(255, 255, 255, 0.2) !important;
-        background-image: linear-gradient(180deg, #ffff0000 25%, #ffffff00 50%, rgba(255, 255, 255, 0.1) 50%) !important;
-        border: none;
-        border-radius: 16px !important;
-        color: white;
-        text-align: left;
-        padding: 1rem;
-        margin: 3rem 0rem;
-    }
-}
-
-@media only screen and (min-device-width: 1025px) and (max-width:1100px){
-    #happyJoText {
-        left: 0vw;
-    }
-    #sickJoText {
-        left: 10vw;
-
-    }
-    #confusedJoText {
-        left: 35vw;
-
-    }
-    #neutralJoText {
-        left: 55vw;
-
-    }
-}
-@media only screen and (min-device-width: 1101px) and (max-width:1549px){
-    #happyJoText {
-        left: 0vw;
-    }
-    #sickJoText {
-        left: 18vw;
-
-    }
-    #confusedJoText {
-        left: 40vw;
-
-    }
-    #neutralJoText {
-        left: 60vw;
-
-    }
-}
-@media only screen and (min-device-width: 1550px){
-    #happyJoText {
-        left: 12vw;
-    }
-    #sickJoText {
-        left: 27vw;
-
-    }
-    #confusedJoText {
-        left: 42vw;
-
-    }
-    #neutralJoText {
-        left: 57vw;
-
-    }
+@media only screen and (min-device-width: 1550px) {
+  #happyJoText {
+    left: 12vw;
+  }
+  #sickJoText {
+    left: 27vw;
+  }
+  #confusedJoText {
+    left: 42vw;
+  }
+  #neutralJoText {
+    left: 57vw;
+  }
 }
