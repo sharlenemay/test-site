@@ -37,10 +37,9 @@
     padding: 1.5rem !important;
     margin-right: 2rem !important;
     margin-left: 2rem !important;
-    font-weight: normal;
-    font-variant: small-caps;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    color: #082653;
+    font-size: 20px;
+    line-height: 23px;
     font-variant: small-caps;
 }
 .activeLink ul > li > a {

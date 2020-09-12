@@ -12,7 +12,7 @@ import Allan from "../Team/allan.jpg";
 import Jeffrey from "../Team/jeffrey.jpeg";
 import Jinny from "../Team/jinny.JPG";
 import Sharlene from "../Team/sharlene.jpeg";
-import Jay from "../Team/placeholder.png";
+import Jay from "../Team/jay.jpg";
 import Myka from "../Team/myka.JPG";
 
 export default function Team () {
@@ -20,7 +20,7 @@ export default function Team () {
 
   return (
     <div>
-      <Jumbotron id="team">
+      <Jumbotron className="team">
         <h1>Our Team</h1>
       </Jumbotron>
       <Container fluid className="teamUnderTheWave">
