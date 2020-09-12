@@ -21,7 +21,7 @@ export default function HowJoWorks() {
             different websites.
           </p>
         </Col>
-        <Col className="addPadding">
+        <Col className="addPadding" id="extensionColumn">
           <img
             className="extensionimg"
             src={ExtensionImg}

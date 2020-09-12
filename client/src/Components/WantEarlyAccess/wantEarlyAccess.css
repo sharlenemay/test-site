@@ -26,7 +26,19 @@
     color: #fff;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:401px) {
+    #wantEarlyAccess {
+        margin-bottom: 5rem;
+        font-size: 25px;
+    }
+    #earlyAccess {
+        padding-top:5rem;
+        padding-bottom: 5rem;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width:402px) and (max-width:600px){
     #earlyAccess {
         padding-top:5rem;
         padding-bottom: 5rem;
