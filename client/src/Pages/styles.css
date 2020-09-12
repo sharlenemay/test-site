@@ -144,6 +144,13 @@ img {
 }
 .jumbotron.contact {
     padding: 0rem;
+    margin-bottom: 0 !important;
+}
+.jumbotron.involved {
+    margin-bottom: 0 !important;
+}
+.jumbotron.team {
+    margin-bottom: 0 !important;
 }
 .messageinput {
     margin: 0rem 0rem 1rem 0rem;

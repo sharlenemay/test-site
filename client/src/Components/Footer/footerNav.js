@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function FooterNav() {
   return (
@@ -8,24 +8,23 @@ export default function FooterNav() {
       <Container id="footernav">
         <Row>
           <Col xs={12} sm={12} md={3} lg={3}>
-            <Link className="bottomnav" to="/">
-              HOME
-            </Link>
+            <a className="bottomnav" href="/">
+              HOME</a>
           </Col>
           <Col xs={12} sm={12} md={3} lg={3}>
-            <Link className="bottomnav" to="/getinvolved">
+            <a className="bottomnav" href="/getinvolved">
               GET INVOLVED
-            </Link>
+            </a>
           </Col>
           <Col xs={12} sm={12} md={3} lg={3}>
-            <Link className="bottomnav" to="/ourteam">
+            <a className="bottomnav" href="/ourteam">
               OUR TEAM
-            </Link>
+            </a>
           </Col>
           <Col xs={12} sm={12} md={3} lg={3}>
-            <Link className="bottomnav" to="/contact">
+            <a className="bottomnav" href="/contact">
               CONTACT US
-            </Link>
+            </a>
           </Col>
         </Row>
       </Container>

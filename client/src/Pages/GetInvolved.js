@@ -5,7 +5,7 @@ import "./styles.css";
 export default function GetInvolved() {
   return (
     <div>
-      <Jumbotron>
+      <Jumbotron className="involved">
         <h1>Get Involved</h1>
       </Jumbotron>
       <Container className="jothefish">

@@ -48,6 +48,9 @@
     text-decoration: none !important;
     margin: 0;
     color: #082653;
+    font-size: 20px;
+    line-height: 23px;
+    font-variant: small-caps;
 }
 #footernav {
     margin-top: 5rem;
