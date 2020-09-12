@@ -1,0 +1,15 @@
+@media only screen and (min-device-width: 200px) and (max-width:400px){
+    .formbutton {
+        margin-left: 20%!important;
+    }
+}
+@media only screen and (min-device-width: 401px) and (max-width:500px){
+    .formbutton {
+        margin-left: 28%!important;
+    }
+}
+@media only screen and (min-device-width: 501px) and (max-width:600px){
+    .formbutton {
+        margin-left: 35%!important;
+    }
+}
