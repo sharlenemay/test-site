@@ -33,7 +33,7 @@
     width: 100%;
     text-align: left;
     padding: 1rem;
-    margin: 1rem;
+    margin-right: 1rem;
     font-size: 15px;
     margin-bottom: 0;
 }
@@ -48,6 +48,7 @@
 .mobileMember {
     text-align: center;
     padding-right: 0 !important;
+    padding-left: 0!important;
 }
 .mobileRow {
     margin: 1rem 0rem;

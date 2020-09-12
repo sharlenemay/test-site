@@ -11,6 +11,15 @@ body {
 p{
     font-size: 15px;
 }
+.lefttext {
+    text-align: left !important;
+}
+.centertext {
+    text-align: center !important;
+}
+.formbutton {
+    margin-left: 43% !important;
+}
 #mainJoTheFish {
     width: 28rem;
     position: absolute;
@@ -27,6 +36,9 @@ p{
 .centeralignheading {
     padding: 7rem;
     text-align: center;
+}
+.label {
+    text-align: left;
 }
 #comingsoon {
     font-family: 'Rokkitt', serif;
@@ -371,8 +383,15 @@ img {
         bottom: 0;
         background-size: auto;
     }
+    .formbutton {
+        margin-left: 39%!important;
+    }
 }
 @media only screen and (min-device-width: 601px) and (max-width:766px){
+
+    .formbutton {
+        margin-left: 35%!important;
+    }
     .form{
         width: 20rem !important;
     }

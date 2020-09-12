@@ -60,34 +60,46 @@ export default class Contact extends Component {
         <Jumbotron className="contact">
           <h1>Contact Us</h1>
         </Jumbotron>
-        <Container className="form">
+        <Container className="lefttext">
           <h2>Get In Touch</h2>
-          <p>Want to find out more? Contact us!</p>
+          <p className="centertext">Want to find out more? Contact us!</p>
           <Form onSubmit={this.handleSubmit.bind(this)} action="/sendMail" method="POST">
-            <Form.Control
-              className="messageinput"
-              type="text"
-              placeholder="Name"
-              value={this.state.name} 
-              onChange={this.onNameChange.bind(this)}
-            />
-            <Form.Control
-              className="messageinput"
-              type="email"
-              placeholder="Email"
-              value={this.state.email}
-              onChange={this.onEmailChange.bind(this)}
-            />
-            <Form.Control
-              className="messageinput"
-              as="textarea"
-              placeholder="Message"
-              rows="5"
-              value={this.state.message}
-              onChange={this.onMessageChange.bind(this)}
-            />
+            <Form.Group controlId="name">
+              <Form.Label className="label">Name</Form.Label>          
+              <Form.Control
+                id="nameinput"
+                className="messageinput"
+                type="text"
+                placeholder="Name"
+                value={this.state.name} 
+                onChange={this.onNameChange.bind(this)}
+              />
+            </Form.Group>
+            <Form.Group controlId="email">
+              <Form.Label className="label">Email</Form.Label> 
+              <Form.Control
+                id="emailinput"
+                className="messageinput"
+                type="email"
+                placeholder="Email"
+                value={this.state.email}
+                onChange={this.onEmailChange.bind(this)}
+              />
+            </Form.Group>
+            <Form.Group controlId="message">
+              <Form.Label className="label">Message</Form.Label> 
+              <Form.Control
+                id="messageinput"
+                className="messageinput"
+                as="textarea"
+                placeholder="Message"
+                rows="5"
+                value={this.state.message}
+                onChange={this.onMessageChange.bind(this)}
+              />
+            </Form.Group>
             {this.state.sent ? <p>Message sent successfully.</p> : <p></p>}
-            <Button variant="primary" type="submit" onClick={this.handleSubmit.bind(this)}>
+            <Button className="formbutton" variant="primary" type="submit" onClick={this.handleSubmit.bind(this)}>
               Send Message
             </Button>
           </Form>
