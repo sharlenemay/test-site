@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Jumbotron, Container, Form, Button } from "react-bootstrap";
 import axios from "axios";
 import "./styles.css";
-import "./contact.css";
 
 export default class Contact extends Component {
   state = {
@@ -61,12 +60,12 @@ export default class Contact extends Component {
         <Jumbotron className="contact">
           <h1>Contact Us</h1>
         </Jumbotron>
-        <Container className="lefttext">
+        <Container className="form centertext">
           <h2>Get In Touch</h2>
           <p className="centertext">Want to find out more? Contact us!</p>
           <Form onSubmit={this.handleSubmit.bind(this)} action="/sendMail" method="POST">
-            <Form.Group controlId="name">
-              <Form.Label className="label">Name</Form.Label>          
+            {/* <Form.Group controlId="name">
+              <Form.Label className="label">Name</Form.Label>           */}
               <Form.Control
                 id="nameinput"
                 className="messageinput"
@@ -75,9 +74,9 @@ export default class Contact extends Component {
                 value={this.state.name} 
                 onChange={this.onNameChange.bind(this)}
               />
-            </Form.Group>
-            <Form.Group controlId="email">
-              <Form.Label className="label">Email</Form.Label> 
+            {/* </Form.Group> */}
+            {/* <Form.Group controlId="email">
+              <Form.Label className="label">Email</Form.Label>  */}
               <Form.Control
                 id="emailinput"
                 className="messageinput"
@@ -86,9 +85,9 @@ export default class Contact extends Component {
                 value={this.state.email}
                 onChange={this.onEmailChange.bind(this)}
               />
-            </Form.Group>
-            <Form.Group controlId="message">
-              <Form.Label className="label">Message</Form.Label> 
+            {/* </Form.Group> */}
+            {/* <Form.Group controlId="message">
+              <Form.Label className="label">Message</Form.Label>  */}
               <Form.Control
                 id="messageinput"
                 className="messageinput"
@@ -98,9 +97,9 @@ export default class Contact extends Component {
                 value={this.state.message}
                 onChange={this.onMessageChange.bind(this)}
               />
-            </Form.Group>
+            {/* </Form.Group> */}
             {this.state.sent ? <p>Message sent successfully.</p> : <p></p>}
-            <Button className="formbutton" variant="primary" type="submit" onClick={this.handleSubmit.bind(this)}>
+            <Button variant="primary" type="submit" onClick={this.handleSubmit.bind(this)}>
               Send Message
             </Button>
           </Form>

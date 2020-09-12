@@ -11,14 +11,14 @@ body {
 p{
     font-size: 15px;
 }
-.lefttext {
-    text-align: left !important;
+/* ::placeholder {
+    color: rgb(145, 19, 19);
 }
+.form-control::-webkit-input-placeholder {
+    color: rgb(177, 14, 14);
+} */
 .centertext {
     text-align: center !important;
-}
-.formbutton {
-    margin-left: 43% !important;
 }
 #mainJoTheFish {
     width: 28rem;
@@ -383,15 +383,8 @@ img {
         bottom: 0;
         background-size: auto;
     }
-    .formbutton {
-        margin-left: 39%!important;
-    }
 }
 @media only screen and (min-device-width: 601px) and (max-width:766px){
-
-    .formbutton {
-        margin-left: 35%!important;
-    }
     .form{
         width: 20rem !important;
     }
