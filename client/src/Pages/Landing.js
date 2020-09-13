@@ -1,6 +1,6 @@
 import React, {createRef, useRef} from "react";
 import { Element } from 'react-scroll'
-import { Jumbotron, Row, Col, Container } from "react-bootstrap";
+import { Jumbotron, Row, Col, Container, Button } from "react-bootstrap";
 import "./styles.css";
 import BlueJo from "../Jo/Jo-happy-blue-10-flat.svg";
 import PartialJo from "../Jo/partial-jo.svg";
@@ -35,7 +35,7 @@ export default function Landing() {
                 Jo sits in your browser and will warn you when something smells
                 a bit fishy.
               </p>
-              <p id="comingsoon">Coming soon...</p>
+              <Button variant="primary" href="http://jothefish.com/download" target="_blank" className="downloadBtn">Download from Chrome</Button>
             </Container>
           </Col>
         </Row>
@@ -64,7 +64,7 @@ export default function Landing() {
           Jo sits in your browser and will warn you when something smells a bit
           fishy.
         </p>
-        <p id="comingsoon">Coming soon...</p>
+        <Button variant="primary" href="http://jothefish.com/download" target="_blank" className="downloadBtn">Download from Chrome</Button>
         <Container className="centeralignheading" >
           <SectionLink section="howJoWorks">
             {({ onClick, isSelected }) => (

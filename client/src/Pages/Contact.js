@@ -69,7 +69,7 @@ export default class Contact extends Component {
               <Form.Control
                 id="nameinput"
                 className="messageinput"
-                type="text"
+                type="name"
                 placeholder="Name"
                 value={this.state.name} 
                 onChange={this.onNameChange.bind(this)}
@@ -92,6 +92,7 @@ export default class Contact extends Component {
                 id="messageinput"
                 className="messageinput"
                 as="textarea"
+                type="message"
                 placeholder="Message"
                 rows="5"
                 value={this.state.message}

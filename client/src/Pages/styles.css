@@ -11,6 +11,30 @@ body {
 p{
     font-size: 15px;
 }
+.downloadBtn {
+    /* position: absolute; */
+    left: 35.26px;
+    right: 35.26px;
+    top: 26.67%;
+    bottom: 26.67%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    background: #508BFE!important;
+}
+.downloadBtn:hover {
+    border-radius: 8px!important;
+}
+.downloadBtn:active {
+    background: #4277DE;
+    border-radius: 8px;
+}
+
 /* ::placeholder {
     color: rgb(145, 19, 19);
 }
