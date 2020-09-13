@@ -5,9 +5,9 @@ import "./styles.css";
 
 export default class Contact extends Component {
   state = {
-    name: "",
-    email: "",
-    message: "",
+    name: null,
+    email: null,
+    message: null,
     sent: false
   }
 
@@ -71,6 +71,7 @@ export default class Contact extends Component {
                 className="messageinput"
                 type="name"
                 placeholder="Name"
+                placeholderTextColor= 'gray'
                 value={this.state.name} 
                 onChange={this.onNameChange.bind(this)}
               />
@@ -82,6 +83,7 @@ export default class Contact extends Component {
                 className="messageinput"
                 type="email"
                 placeholder="Email"
+                placeholderTextColor= 'gray'
                 value={this.state.email}
                 onChange={this.onEmailChange.bind(this)}
               />
@@ -94,6 +96,7 @@ export default class Contact extends Component {
                 as="textarea"
                 type="message"
                 placeholder="Message"
+                placeholderTextColor= 'gray'
                 rows="5"
                 value={this.state.message}
                 onChange={this.onMessageChange.bind(this)}
