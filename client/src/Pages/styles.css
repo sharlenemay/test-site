@@ -194,6 +194,16 @@ img {
 .getinvolved { 
     padding: 1rem 10rem 0rem 10rem;
     text-align: left;
+    font-size: 1rem;
+}
+.involvedOptns {
+    margin-top: 4vh;
+}
+.involvedFish {
+    margin-top: 0 !important;
+}
+.involvedCols {
+    margin-top: 8vh;
 }
 #blueDownArrow {
     width: 1.5rem;
