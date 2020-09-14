@@ -20,7 +20,7 @@ export default function GetInvolved() {
               dig deeper and share it with all it's friends. If you know anything
               fishy about a business fill out our form.
             </p>
-            <Button className="btn"
+            <Button className="joBtn"
               href="https://docs.google.com/forms/d/e/1FAIpQLSc3Y69xP1v-P10malw7vxZIsZfS9UBjv3LtZWr_BavlWxcdkw/viewform"
               variant="primary"
             >
@@ -35,7 +35,7 @@ export default function GetInvolved() {
               provided. It won't take long and it's super rewarding. Interested?
               Fill out our form below and Jo's team will be in contact.
             </p>
-            <Button className="btn"
+            <Button className="joBtn"
               href="https://docs.google.com/forms/d/e/1FAIpQLSfTbXKEcRXQKynzECNQVtulmuJ7l-OAyEWzFYr4uOBqsVfGuQ/viewform"
               variant="primary"
             >

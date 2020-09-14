@@ -35,7 +35,7 @@ export default function Landing() {
                 Jo sits in your browser and will warn you when something smells
                 a bit fishy.
               </p>
-              <Button variant="primary" href="http://jothefish.com/download" target="_blank" className="downloadBtn">Download from Chrome</Button>
+              <Button variant="primary" href="http://jothefish.com/download" target="_blank" id="downloadBtn">Download from Chrome</Button>
             </Container>
           </Col>
         </Row>
