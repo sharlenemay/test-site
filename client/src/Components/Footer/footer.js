@@ -53,7 +53,7 @@ export default function Footer() {
         </a>
         <br />
         <p id="copywrite">
-          © JoTheFish. All rights reserved.{" "}
+          © JotheFish. All rights reserved.{" "}
           <text id="privacyPolicy" onClick={handleShow}>
             Privacy Policy.
           </text>

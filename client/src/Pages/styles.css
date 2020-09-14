@@ -97,6 +97,7 @@ html, body {
 #blueJo {
     margin-top: 20vh;
 }
+
 .whiteText {
     color: #ffffff;
 }
@@ -323,6 +324,9 @@ img {
         bottom: 0;
         background-size: auto;
     }
+    #blueJoInvolved {
+        margin-top: 15vh !important;
+    }
 }
 @media only screen and (min-width:402px) and (max-width:600px){
     .form{
@@ -387,6 +391,9 @@ img {
         background-image: url(../Jo/1940px_longest_background.svg);
         bottom: 0;
         background-size: auto;
+    }
+    #blueJoInvolved {
+        margin-top: 10vh !important;
     }
 }
 @media only screen and (min-device-width: 767px) and (max-width:1024px){
