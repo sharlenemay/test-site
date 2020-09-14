@@ -177,7 +177,7 @@ img {
     background-color: #4EC8F4;
     border: none !important;
     background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #70D9FF 51%);
-    border-radius: 8%;
+    border-radius: 8px;
     border: 0;
     margin: 15px;
     font-family: 'Robot', sans-serif;
@@ -187,7 +187,7 @@ img {
     background-color: #4EC8F4 !important;
     border: none !important;
     background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #70D9FF 51%);
-    border-radius: 8%;
+    border-radius: 8px;
     border: 0;
     margin: 15px;
     font-family: 'Robot', sans-serif;
