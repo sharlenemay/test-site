@@ -35,7 +35,7 @@ export default function Footer() {
           </a>
           </Col> */}
           <Col xs={12} sm={12} md={12} lg={12}>
-            <img className="partner" src={mozilla} alt="Y Startup School" />
+            <img className="partner" id="mozillabuilder" src={mozilla} alt="Y Startup School" />
           </Col>
           {/* <Col xs={12} sm={12} md={12} lg={12}>
             <img className="partner" src={stanford} alt="Stanford" />
