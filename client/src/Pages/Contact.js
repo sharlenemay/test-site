@@ -103,7 +103,7 @@ export default class Contact extends Component {
               />
             {/* </Form.Group> */}
             {this.state.sent ? <p>Message sent successfully.</p> : <p></p>}
-            <Button variant="primary" type="submit" onClick={this.handleSubmit.bind(this)}>
+            <Button variant="primary" type="submit" className="joBtn" onClick={this.handleSubmit.bind(this)}>
               Send Message
             </Button>
           </Form>

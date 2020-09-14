@@ -11,28 +11,32 @@ body {
 p{
     font-size: 15px;
 }
-.downloadBtn {
+#downloadBtn {
     /* position: absolute; */
     left: 35.26px;
     right: 35.26px;
     top: 26.67%;
     bottom: 26.67%;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
+    padding: 0.75rem 2.5rem;
     line-height: 21px;
     /* identical to box height */
     text-align: center;
     color: #FFFFFF;
-    background: #508BFE!important;
-}
-.downloadBtn:hover {
-    border-radius: 8px!important;
-}
-.downloadBtn:active {
-    background: #4277DE;
+    background-color: #4277DE;
     border-radius: 8px;
+    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #508BFE 51%);
+    transition: box-shadow .3s;
+}
+#downloadBtn:hover {
+    box-shadow: 0 0 15px rgba(33,33,33,.2) !important;
+}
+#downloadBtn:active {
+    background: #508BFE;
+    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 0%, #508BFE 0%);
 }
 
 /* ::placeholder {
@@ -170,7 +174,7 @@ img {
     padding-left: none;
 }
 .btn {
-    background-color: #4EC8F4 !important;
+    background-color: #4EC8F4;
     border: none !important;
     background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #70D9FF 51%);
     border-radius: 8%;
@@ -179,6 +183,27 @@ img {
     font-family: 'Robot', sans-serif;
     font-weight: 700 !important;
 }
+.joBtn {
+    background-color: #4EC8F4 !important;
+    border: none !important;
+    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #70D9FF 51%);
+    border-radius: 8%;
+    border: 0;
+    margin: 15px;
+    font-family: 'Robot', sans-serif;
+    font-weight: 700 !important;
+    transition: box-shadow .3s;
+}
+.joBtn:hover {
+    box-shadow: 0 0 15px rgba(33,33,33,.2);
+}
+.joBtn:active {
+    background-color: #4EC8F4 !important;
+    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 0%, #70D9FF 0%);
+    text-decoration: none;
+    border: none;
+}
+
 .jumbotron.contact {
     padding: 0rem;
     margin-bottom: 0 !important;
