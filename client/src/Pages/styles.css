@@ -382,6 +382,7 @@ img {
     }
     .downloadContainer {
         padding: 0 !important;
+        text-align: center;
     }
     .mobileLanding {
         margin-left: 10vw !important;
@@ -454,6 +455,13 @@ img {
     }
     #blueJoInvolved {
         margin-top: 10vh !important;
+    }
+    .downloadContainer {
+        padding: 0 !important;
+        text-align: center;
+    }
+    .mobileLanding {
+        margin-left: 10vw !important;
     }
 }
 @media only screen and (min-device-width: 767px) and (max-width:1024px){
