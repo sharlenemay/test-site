@@ -380,6 +380,12 @@ img {
     #blueJoInvolved {
         margin-top: 15vh !important;
     }
+    .downloadContainer {
+        padding: 0 !important;
+    }
+    .mobileLanding {
+        margin-left: 10vw !important;
+    }
 }
 @media only screen and (min-width:402px) and (max-width:600px){
     .form{
