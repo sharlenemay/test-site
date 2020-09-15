@@ -64,7 +64,7 @@ export default function Landing() {
           Jo sits in your browser and will warn you when something smells a bit
           fishy.
         </p>
-        <Container className="centeralignheading downloadContainer" >
+        <Container className="downloadContainer" >
           <Button href="http://jothefish.com/download" target="_blank" id="mobileDownloadBtn">Download on Chrome</Button>
         </Container>
         <Container className="centeralignheading" >
