@@ -50,7 +50,7 @@ export default function Reactions() {
           {/* mobile */}
           <Container id="mobileJos">
             <Row>
-              <img className="mobileJo" src={HappyJo} alt="happy" />
+              <img className="mobileJo happyMobileJo" src={HappyJo} alt="happy" />
               <Card className="mobileReactions">
                 {" "}
                 <h3 style={{ color: "#15E659" }}>Happy Jo</h3>
@@ -58,7 +58,7 @@ export default function Reactions() {
               </Card>
             </Row>
             <Row>
-              <img className="mobileJo" src={SickJo} alt="sick" />
+              <img className="mobileJo sickMobileJo" src={SickJo} alt="sick" />
               <Card className="mobileReactions">
                 {" "}
                 <h3 style={{ color: "#FE5F55" }}>Sick Jo</h3>
@@ -66,7 +66,7 @@ export default function Reactions() {
               </Card>
             </Row>
             <Row>
-              <img className="mobileJo" src={ConfusedJo} alt="confused" />
+              <img className="mobileJo confusedMobileJo" src={ConfusedJo} alt="confused" />
               <Card className="mobileReactions">
                 {" "}
                 <h3 style={{ color: "#FFC126" }}>Confused Jo</h3>
@@ -74,7 +74,7 @@ export default function Reactions() {
               </Card>
             </Row>
             <Row>
-              <img className="mobileJo" src={NeutralJo} alt="neutral" />
+              <img className="mobileJo neutralMobileJo" src={NeutralJo} alt="neutral" />
               <Card className="mobileReactions">
                 {" "}
                 <h3 style={{ color: "#4EC8F4" }}>Neutral Jo</h3>
@@ -88,7 +88,7 @@ export default function Reactions() {
           <Container id="ipadJos">
             <Row>
               <Col>
-                <img className="mobileJo" src={HappyJo} alt="happy" />
+                <img className="mobileJo happyMobileJo" src={HappyJo} alt="happy" />
                 <Card className="mobileReactions">
                   {" "}
                   <h3 style={{ color: "#15E659" }}>Happy Jo</h3>
@@ -96,7 +96,7 @@ export default function Reactions() {
                 </Card>
               </Col>
               <Col>
-              <img className="mobileJo" src={SickJo} alt="sick" />
+              <img className="mobileJo sickMobileJo" src={SickJo} alt="sick" />
               <Card className="mobileReactions">
                 {" "}
                 <h3 style={{ color: "#FE5F55" }}>Sick Jo</h3>
@@ -106,7 +106,7 @@ export default function Reactions() {
             </Row>
             <Row>
               <Col>
-              <img className="mobileJo" src={ConfusedJo} alt="confused" />
+              <img className="mobileJo confusedMobileJo" src={ConfusedJo} alt="confused" />
               <Card className="mobileReactions">
                 {" "}
                 <h3 style={{ color: "#FFC126" }}>Confused Jo</h3>
@@ -114,7 +114,7 @@ export default function Reactions() {
               </Card>
               </Col>
               <Col>
-                <img className="mobileJo" src={NeutralJo} alt="neutral" />
+                <img className="mobileJo neutralMobileJo" src={NeutralJo} alt="neutral" />
                 <Card className="mobileReactions">
                   {" "}
                   <h3 style={{ color: "#4EC8F4" }}>Neutral Jo</h3>

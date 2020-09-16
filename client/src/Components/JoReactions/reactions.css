@@ -198,10 +198,17 @@
       position: absolute;
       z-index: 2;
       left: 50vw;
+      margin-top: 1rem;
+    }
+    .neutralMobileJo {
+      margin-top: 0.75rem;
+    }
+    .sickMobileJo {
+      margin-top: 1.25rem;
     }
   }
     
-@media only screen and (min-device-width: 281px) and (max-width: 601px) {
+@media only screen and (min-device-width: 281px) and (max-width: 378px) {
   .mobileCol {
     padding: 0 !important;
   }
@@ -230,6 +237,55 @@
   .reactions {
     margin-bottom: 0rem;
     padding-top: 0rem;
+  }
+  .mobileJo {
+    margin-top: 1rem;
+  }
+  .neutralMobileJo {
+    margin-top: 0.75rem;
+  }
+  .sickMobileJo {
+    margin-top: 1.25rem;
+  }
+}
+@media only screen and (min-device-width: 379px) and (max-width: 601px) {
+  .mobileCol {
+    padding: 0 !important;
+  }
+  #landingjo {
+    width: 15rem;
+    position: absolute;
+    z-index: 2;
+    right: -2rem;
+  }
+  #fourjos {
+    display: none;
+  }
+  #mobileJos {
+    display: block;
+  }
+
+  .getToKnowJo {
+    text-align: left !important;
+    padding-bottom: 3vh;
+    /* padding-top: 60vh;
+        margin-top: 30vh; */
+  }
+  #gettoknow {
+      padding-top: 75vh;
+  }
+  .reactions {
+    margin-bottom: 0rem;
+    padding-top: 0rem;
+  }
+  .mobileJo {
+    margin-top: 1rem;
+  }
+  .neutralMobileJo {
+    margin-top: 0.75rem;
+  }
+  .sickMobileJo {
+    margin-top: 1.25rem;
   }
 }
 
@@ -278,6 +334,15 @@
     text-align: left;
     padding: 1rem;
     margin: 3rem 0rem;
+  }
+  .mobileJo {
+    margin-top: 1rem;
+  }
+  .neutralMobileJo {
+    margin-top: 0.75rem;
+  }
+  .sickMobileJo {
+    margin-top: 1.25rem;
   }
 }
 
