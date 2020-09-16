@@ -59,8 +59,8 @@ export default function Landing() {
       {/* mobile */}
       <Jumbotron id="mobileBlueJo">
         <img id="partialJo" src={PartialJo} alt="blue Jo"></img>
-        <h1 className="alignheading">Jo the Fish</h1>
-        <p className="aligntext">
+        <h1 className="alignheading mobileLanding">Jo the Fish</h1>
+        <p className="aligntext mobileLanding">
           Jo sits in your browser and will warn you when something smells a bit
           fishy.
         </p>
