@@ -51,7 +51,7 @@ p{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    padding: 0.75rem 2rem;
+    padding: 0.75rem 1rem;
     line-height: 21px;
     /* identical to box height */
     text-align: center;
@@ -388,7 +388,7 @@ img {
         text-align: center;
     }
     .mobileLanding {
-        margin-left: 10vw !important;
+        margin-left: 8.5vw !important;
     }
 }
 @media only screen and (min-width:402px) and (max-width:600px){
@@ -419,7 +419,7 @@ img {
         text-align: justify !important;
     }
     #partialJo {
-        width: 9rem;
+        width: 10rem;
         position: absolute;
         right: 0 !important;
     }
