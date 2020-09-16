@@ -35,7 +35,7 @@ export default function Landing() {
                 Jo sits in your browser and will warn you when something smells
                 a bit fishy.
               </p>
-              <Button variant="primary" href="http://jothefish.com/download" target="_blank" className="downloadBtn">Download on Chrome</Button>
+              <Button variant="primary" href="http://jothefish.com/download" target="_blank" className="downloadBtn">Download Chrome Extension</Button>
             </Container>
           </Col>
         </Row>
@@ -64,7 +64,7 @@ export default function Landing() {
           Jo sits in your browser and will warn you when something smells a bit
           fishy.
         </p>
-        <Button variant="primary" href="http://jothefish.com/download" target="_blank" className="downloadBtn">Download on Chrome</Button>
+        <Button variant="primary" href="http://jothefish.com/download" target="_blank" className="downloadBtn">Download Chrome Extension</Button>
         <Container className="centeralignheading" >
           <SectionLink section="howJoWorks">
             {({ onClick, isSelected }) => (
