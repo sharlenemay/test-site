@@ -4,6 +4,9 @@
     padding: 0;
     color: #082653;
 }
+.label {
+    float: left;
+}
 body {
     margin: 0;
     padding: 0;
