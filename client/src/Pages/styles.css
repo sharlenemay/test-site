@@ -11,28 +11,59 @@ body {
 p{
     font-size: 15px;
 }
-.downloadBtn {
+#downloadBtn {
     /* position: absolute; */
     left: 35.26px;
     right: 35.26px;
     top: 26.67%;
     bottom: 26.67%;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
+    padding: 0.75rem 2.5rem;
     line-height: 21px;
     /* identical to box height */
     text-align: center;
     color: #FFFFFF;
-    background: #508BFE!important;
-}
-.downloadBtn:hover {
-    border-radius: 8px!important;
-}
-.downloadBtn:active {
-    background: #4277DE;
+    background-color: #4277DE;
     border-radius: 8px;
+    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #508BFE 51%);
+    transition: box-shadow .3s;
+}
+#downloadBtn:hover {
+    box-shadow: 0 0 15px rgba(33,33,33,.2) !important;
+}
+#downloadBtn:active {
+    background: #508BFE;
+    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 0%, #508BFE 0%);
+}
+#mobileDownloadBtn {
+    /* position: absolute; */
+    left: 35.26px;
+    right: 35.26px;
+    top: 26.67%;
+    bottom: 26.67%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0.75rem 2.5rem;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #4277DE;
+    border-radius: 8px;
+    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #508BFE 51%);
+    transition: box-shadow .3s;
+}
+#mobileDownloadBtn:hover {
+    box-shadow: 0 0 15px rgba(33,33,33,.2) !important;
+}
+#mobileDownloadBtn:active {
+    background: #508BFE;
+    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 0%, #508BFE 0%);
 }
 
 /* ::placeholder {
@@ -97,6 +128,7 @@ html, body {
 #blueJo {
     margin-top: 20vh;
 }
+
 .whiteText {
     color: #ffffff;
 }
@@ -169,15 +201,36 @@ img {
     padding-left: none;
 }
 .btn {
-    background-color: #4EC8F4 !important;
+    background-color: #4EC8F4;
     border: none !important;
     background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #70D9FF 51%);
-    border-radius: 8%;
+    border-radius: 8px;
     border: 0;
     margin: 15px;
     font-family: 'Robot', sans-serif;
     font-weight: 700 !important;
 }
+.joBtn {
+    background-color: #4EC8F4 !important;
+    border: none !important;
+    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #70D9FF 51%);
+    border-radius: 8px;
+    border: 0;
+    margin: 15px;
+    font-family: 'Robot', sans-serif;
+    font-weight: 700 !important;
+    transition: box-shadow .3s;
+}
+.joBtn:hover {
+    box-shadow: 0 0 15px rgba(33,33,33,.2);
+}
+.joBtn:active {
+    background-color: #4EC8F4 !important;
+    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 0%, #70D9FF 0%);
+    text-decoration: none;
+    border: none;
+}
+
 .jumbotron.contact {
     padding: 0rem;
     margin-bottom: 0 !important;
@@ -317,11 +370,22 @@ img {
     }
     .teamUnderTheWave2 {
         display: block;
+        padding-bottom: 1vh;
     }
     .underTheWave {
         background-image: url(../Jo/1940px_longest_background.svg);
         bottom: 0;
         background-size: auto;
+    }
+    #blueJoInvolved {
+        margin-top: 15vh !important;
+    }
+    .downloadContainer {
+        padding: 0 !important;
+        text-align: center;
+    }
+    .mobileLanding {
+        margin-left: 10vw !important;
     }
 }
 @media only screen and (min-width:402px) and (max-width:600px){
@@ -382,11 +446,22 @@ img {
     }
     .teamUnderTheWave2 {
         display: block;
+        padding-bottom: 1vh;
     }
     .underTheWave {
         background-image: url(../Jo/1940px_longest_background.svg);
         bottom: 0;
         background-size: auto;
+    }
+    #blueJoInvolved {
+        margin-top: 10vh !important;
+    }
+    .downloadContainer {
+        padding: 0 !important;
+        text-align: center;
+    }
+    .mobileLanding {
+        margin-left: 10vw !important;
     }
 }
 @media only screen and (min-device-width: 767px) and (max-width:1024px){
@@ -411,6 +486,7 @@ img {
     }
     .teamUnderTheWave2 {
         display: block;
+        padding-bottom: 1vh;
     }
     .underTheWave {
         background-image: url(../Jo/1940px_longest_background.svg);
@@ -476,6 +552,7 @@ img {
     }
     .teamUnderTheWave2 {
         display: block;
+        padding-bottom: 1vh;
     }
     .underTheWave {
         background-image: url(../Jo/1940px_longest_background.svg);

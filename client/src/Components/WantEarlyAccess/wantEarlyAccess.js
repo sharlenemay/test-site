@@ -37,7 +37,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         placeholder="Email"
       />
       <br/>
-      <Button variant="primary" type="submit" onClick={submit}>Sign Up</Button>
+      <Button variant="primary" className="joBtn" type="submit" onClick={submit}>Sign Up</Button>
     </div>
   );
 };
