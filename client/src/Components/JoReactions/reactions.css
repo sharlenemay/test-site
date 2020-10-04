@@ -158,7 +158,7 @@
   left: 12rem;
 }
 .hoveredJo {
-  margin-top: 3rem;
+  margin-top: 0.5rem;
   transition: all 0.2s ease-in;
 }
 .shadedJo {
