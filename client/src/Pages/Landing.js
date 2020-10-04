@@ -94,7 +94,7 @@ export default function Landing() {
         </Element>
         </div>
         
-        <Row>
+        {/* <Row>
           <Col className="centeralignheading" id="whiteArrowDown" xs={12} lg={12}>
                 <img
                   id="whiteDownArrow"
@@ -103,7 +103,7 @@ export default function Landing() {
                   onClick={scrollToBottom}
                 />
           </Col>
-        </Row>
+        </Row> */}
       </Container>
 
 
