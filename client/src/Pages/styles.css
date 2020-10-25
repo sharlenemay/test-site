@@ -1,72 +1,112 @@
 * {
-    /* font-family: 'Roboto', sans-serif; */
-    margin: 0;
-    padding: 0;
-    color: #082653;
+  /* font-family: 'Roboto', sans-serif; */
+  margin: 0;
+  padding: 0;
+  color: #082653;
 }
 .label {
-    float: left;
+  float: left;
 }
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-p{
-    font-size: 15px;
+p {
+  font-size: 15px;
+}
+h5 {
+  font-family: "Rokkitt";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
 }
 #downloadBtn {
-    /* position: absolute; */
-    left: 35.26px;
-    right: 35.26px;
-    top: 26.67%;
-    bottom: 26.67%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 0.75rem 2.5rem;
-    line-height: 21px;
-    /* identical to box height */
-    text-align: center;
-    color: #FFFFFF;
-    background-color: #4277DE;
-    border-radius: 8px;
-    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #508BFE 51%);
-    transition: box-shadow .3s;
+  /* position: absolute; */
+  /* left: 35.26px; */
+  margin: 2rem 0rem 0rem 5rem !important;
+  /* right: 35.26px; */
+  /* top: 26.67%;
+  bottom: 26.67%; */
+  float: left;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0.75rem 2.5rem;
+  margin: 3rem 0rem 0rem 0rem;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+  background-color: #4277de;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    0deg,
+    #ffff0000 0%,
+    #ffffff00 50%,
+    #508bfe 51%
+  );
+  transition: box-shadow 0.3s;
 }
 #downloadBtn:hover {
-    box-shadow: 0 0 15px rgba(33,33,33,.2) !important;
+  box-shadow: 0 0 15px rgba(33, 33, 33, 0.2) !important;
 }
 #downloadBtn:active {
-    background: #508BFE;
-    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 0%, #508BFE 0%);
+  background: #508bfe;
+  background-image: linear-gradient(
+    0deg,
+    #ffff0000 0%,
+    #ffffff00 0%,
+    #508bfe 0%
+  );
 }
+
 #mobileDownloadBtn {
-    /* position: absolute; */
-    left: 35.26px;
-    right: 35.26px;
-    top: 26.67%;
-    bottom: 26.67%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 0.75rem 1rem;
-    line-height: 21px;
-    /* identical to box height */
-    text-align: center;
-    color: #FFFFFF;
-    background-color: #4277DE;
-    border-radius: 8px;
-    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #508BFE 51%);
-    transition: box-shadow .3s;
+  /* position: absolute; */
+  left: 35.26px;
+  right: 35.26px;
+  top: 26.67%;
+  bottom: 26.67%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0.75rem 1rem;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+  background-color: #4277de;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    0deg,
+    #ffff0000 0%,
+    #ffffff00 50%,
+    #508bfe 51%
+  );
+  transition: box-shadow 0.3s;
 }
 #mobileDownloadBtn:hover {
-    box-shadow: 0 0 15px rgba(33,33,33,.2) !important;
+  box-shadow: 0 0 15px rgba(33, 33, 33, 0.2) !important;
 }
 #mobileDownloadBtn:active {
-    background: #508BFE;
-    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 0%, #508BFE 0%);
+  background: #508bfe;
+  background-image: linear-gradient(
+    0deg,
+    #ffff0000 0%,
+    #ffffff00 0%,
+    #508bfe 0%
+  );
+}
+#monitor {
+    top: -5vh !important;
+    position: absolute;
+    width: 75vw;
+    left: 13vw;
+    display: block;
+    cursor: default;
+    /* margin: 0 auto; */
 }
 
 /* ::placeholder {
@@ -76,490 +116,542 @@ p{
     color: rgb(177, 14, 14);
 } */
 .centertext {
-    text-align: center !important;
+  text-align: center !important;
 }
-#mainJoTheFish {
+/* #mainJoTheFish {
     width: 28rem;
     position: absolute;
     left: -1rem;
-}
+} */
 .alignheading {
-    margin: 2rem;
+  margin: 0rem 0rem 0rem 5rem;
+  text-align: left;
+  font-size: 2.75vw;
 }
 .aligntext {
-    font-size: 16px;
-    margin: 2rem;
-    text-align: left;
+  font-size: 16px;
+  margin: 2rem;
+  text-align: left;
 }
 .centeralignheading {
-    padding: 7rem;
-    text-align: center;
+  padding: 7rem;
+  text-align: center;
 }
 .label {
-    text-align: left;
+  text-align: left;
 }
 #comingsoon {
-    font-family: 'Rokkitt', serif;
-    color: #4277DE;
-    font-weight: 600;
-    line-height: 25px;
-    font-size: 24px;
-    margin: 2rem;
+  font-family: "Rokkitt", serif;
+  color: #4277de;
+  font-weight: 600;
+  line-height: 25px;
+  font-size: 24px;
+  margin: 2rem;
 }
 h1 {
-    font-family: 'Rokkitt', serif;
-    font-weight: 700 !important;
-    /* background-image: linear-gradient(180deg,transparent 50%,#D8ECF8 0);
+  font-family: "Rokkitt", serif;
+  font-weight: 700 !important;
+  /* background-image: linear-gradient(180deg,transparent 50%,#D8ECF8 0);
     background-size: auto; */
 }
 h2 {
-    font-family: 'Rokkitt', serif;
-    font-weight: 700 !important;
-    font-size: 40px;
-    line-height: 45px;
-    text-align: center !important;
-    color: #4277DE;
+  font-family: "Rokkitt", serif;
+  font-weight: 700 !important;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center !important;
+  color: #4277de;
 }
 h3 {
-    font-family: 'Rokkitt', serif;
-    font-weight: 700 !important;
-    font-size: 20px !important;
+  font-family: "Rokkitt", serif;
+  font-weight: 700 !important;
+  font-size: 20px !important;
 }
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 #blueJo {
-    margin-top: 20vh;
+  margin-top: 8vh;
+  justify-content: center;
 }
 
 .whiteText {
-    color: #ffffff;
+  color: #ffffff;
 }
 .underTheWave {
-    background-image: url(../Jo/wave_background.svg);
-    bottom: 0;
-    background-size: cover;
+  background-image: url(../Jo/wave_background.svg);
+  bottom: 0;
+  background-size: cover;
 }
 .teamUnderTheWave {
-    background-image: url(../Jo/wave_background.svg);
-    bottom: 0;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-image: url(../Jo/wave_background.svg);
+  bottom: 0;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .teamUnderTheWave2 {
-    background-image: url(../Jo/wave_background.svg);
-    bottom: 0;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: none;
+  background-image: url(../Jo/wave_background.svg);
+  bottom: 0;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: none;
 }
 .member {
-    max-width: 20rem !important;
-    /* margin-bottom: 13rem; */
-    border-radius: 5px;
+  max-width: 20rem !important;
+  /* margin-bottom: 13rem; */
+  border-radius: 5px;
 }
 
 .form {
-    width: 40rem !important;
-    text-align: center;
-    /* margin: 0rem 2rem 5rem 2rem; */
-    align-content: center;
+  width: 40rem !important;
+  text-align: center;
+  /* margin: 0rem 2rem 5rem 2rem; */
+  align-content: center;
 }
 .jumbotron {
-    justify-content: center;
-    padding: 5rem !important;
-    /* margin: 0% 25% 0% 25% !important; */
-    text-align: center;
-    background-color: transparent !important;
-    margin-bottom: 19vh !important;
+  justify-content: center;
+  padding: 5rem !important;
+  /* margin: 0% 25% 0% 25% !important; */
+  text-align: center;
+  background-color: transparent !important;
+  margin-bottom: 19vh !important;
 }
 mark {
-    background-color: #D8ECF8 !important;
+  background-color: #d8ecf8 !important;
 }
 .jothefish {
-    justify-content: center;
-    /* margin: 0% 25% 15% 25%; */
-    text-align: center !important;
-    margin-bottom: 5rem !important;
-    background-color: none !important;
+  justify-content: center;
+  /* margin: 0% 25% 15% 25%; */
+  text-align: center !important;
+  margin-bottom: 5rem !important;
+  background-color: none !important;
 }
 img {
-    width: 12rem;
-    max-width: 100%;
-    cursor: pointer;
+  width: 12rem;
+  max-width: 100%;
+  cursor: pointer;
+}
+#googlebrowser {
+    width: 100%;
+}
+#welcomeContainer {
+    margin-top: 20vh;
+}
+.caption {
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: justify;
+    padding-top: 2vh;
+}
+#loginSample {
+    width: 200%;
+    left: -11vw !important;
+}
+.JoPiece {
+    width: 80%;
+    margin-top: 5vh;
+}
+.how {
+    margin-top: 15vh;
+    padding-top: 5rem;
+}
+#pinmenu {
+    width: 200%;
+    position: absolute;
 }
 #landingjo {
-    width: 20rem;
-    padding: 0;
+  width: 20rem;
+  padding: 0;
+  cursor: default;
 }
 #rightalignjo {
-    text-align: right;
-    right: 3rem;
-    padding-left: none;
+  text-align: right;
+  right: 12vw;
+  top: 15vh;
+  padding-left: none;
 }
 .btn {
-    background-color: #4EC8F4;
-    border: none !important;
-    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #70D9FF 51%);
-    border-radius: 8px;
-    border: 0;
-    margin: 15px;
-    font-family: 'Robot', sans-serif;
-    font-weight: 700 !important;
+  background-color: #4ec8f4;
+  border: none !important;
+  background-image: linear-gradient(
+    0deg,
+    #ffff0000 0%,
+    #ffffff00 50%,
+    #70d9ff 51%
+  );
+  border-radius: 8px;
+  border: 0;
+  margin: 15px;
+  font-family: "Robot", sans-serif;
+  font-weight: 700 !important;
 }
 .joBtn {
-    background-color: #4EC8F4 !important;
-    border: none !important;
-    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 50%, #70D9FF 51%);
-    border-radius: 8px;
-    border: 0;
-    margin: 15px;
-    font-family: 'Robot', sans-serif;
-    font-weight: 700 !important;
-    transition: box-shadow .3s;
+  background-color: #4ec8f4 !important;
+  border: none !important;
+  background-image: linear-gradient(
+    0deg,
+    #ffff0000 0%,
+    #ffffff00 50%,
+    #70d9ff 51%
+  );
+  border-radius: 8px;
+  border: 0;
+  margin: 15px;
+  font-family: "Robot", sans-serif;
+  font-weight: 700 !important;
+  transition: box-shadow 0.3s;
 }
 .joBtn:hover {
-    box-shadow: 0 0 15px rgba(33,33,33,.2);
+  box-shadow: 0 0 15px rgba(33, 33, 33, 0.2);
 }
 .joBtn:active {
-    background-color: #4EC8F4 !important;
-    background-image: linear-gradient(0deg, #ffff0000 0%, #ffffff00 0%, #70D9FF 0%);
-    text-decoration: none;
-    border: none;
+  background-color: #4ec8f4 !important;
+  background-image: linear-gradient(
+    0deg,
+    #ffff0000 0%,
+    #ffffff00 0%,
+    #70d9ff 0%
+  );
+  text-decoration: none;
+  border: none;
 }
 
 .jumbotron.contact {
-    padding: 0rem;
-    margin-bottom: 0 !important;
+  padding: 0rem;
+  margin-bottom: 0 !important;
 }
 .jumbotron.involved {
-    margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 .jumbotron.team {
-    margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 .messageinput {
-    margin: 0rem 0rem 1rem 0rem;
+  margin: 0rem 0rem 1rem 0rem;
 }
-.getinvolved { 
-    padding: 1rem 10rem 0rem 10rem;
-    text-align: left;
-    font-size: 1rem;
+.getinvolved {
+  padding: 1rem 10rem 0rem 10rem;
+  text-align: left;
+  font-size: 1rem;
 }
 .involvedOptns {
-    margin-top: 4vh;
+  margin-top: 4vh;
 }
 .involvedFish {
-    margin-top: 0 !important;
+  margin-top: 0 !important;
 }
 .involvedCols {
-    margin-top: 8vh;
+  margin-top: 8vh;
 }
 #blueDownArrow {
-    width: 1.5rem;
+  width: 1.5rem;
 }
 #arrowDown {
-    display: block;
-    padding-top: 22vh;
-    padding-bottom: 2vh;
+  display: block;
+  padding-top: 22vh;
+  padding-bottom: 2vh;
 }
 #whiteDownArrow {
-    width: 1.5rem;
+  width: 1.5rem;
 }
 #whiteArrowDown {
-    display: block;
-    padding-top: 8rem;
+  display: block;
+  padding-top: 8rem;
 }
 #mobileBlueJo {
-    display: none;
+  display: none;
 }
 #mobileTeam {
-    padding-top: 10rem;
+  padding-top: 10rem;
 }
-@media only screen and (min-device-width: 1025px) and (max-width:1600px){
-    .form{
-        width: 40rem !important;
-        left: 0;
-    }
-    .getinvolved { 
-        padding: 1rem 5rem 0rem 5rem;
-        text-align: left;
-    }
-    #mainJoTheFish {
-        width: 27rem;
-        position: absolute;
-        left: -2rem;
-    }
-    #arrowDown {
-        display: block;
-        top: 4rem;
-    }
-    #whiteArrowDown {
-        display: block;
-    }
-    .teamUnderTheWave2 {
-        display: none;
-    }
-    .underTheWave {
-        background-image: url(../Jo/wave_background.svg);
-        bottom: 0;
-        background-size: cover;
-    }
-    #blueJo {
-        margin-top: 15vh;
-    }
+@media only screen and (min-device-width: 1025px) and (max-width: 1600px) {
+  .form {
+    width: 40rem !important;
+    left: 0;
+  }
+  .getinvolved {
+    padding: 1rem 5rem 0rem 5rem;
+    text-align: left;
+  }
+  #mainJoTheFish {
+    width: 27rem;
+    position: absolute;
+    left: -2rem;
+  }
+  #arrowDown {
+    display: block;
+    top: 4rem;
+  }
+  #whiteArrowDown {
+    display: block;
+  }
+  .teamUnderTheWave2 {
+    display: none;
+  }
+  .underTheWave {
+    background-image: url(../Jo/wave_background.svg);
+    bottom: 0;
+    background-size: cover;
+  }
+  #blueJo {
+    margin-top: 8vh;
+  }
 }
-@media only screen and (max-width:401px){
-    .form{
-        width: 20rem !important;
-    }
-    #mainJoTheFish {
-        width: 100%;
-        left: 0rem;
-        padding: 0;
-    }
-    #arrowDown {
-        display: block;
-    }
-    #whiteArrowDown {
-        display: none;
-    }
-    .jumbotron {
-        justify-content: center;
-        padding: 2rem !important;
-        /* margin: 0% 25% 0% 25% !important; */
-        text-align: center;
-        background-color: transparent !important;
-        margin-bottom: 0 !important;
-    }
-    .getinvolved { 
-        padding: 1rem !important;
-        text-align: justify !important;
-    }
-    #partialJo {
-        width: 9rem;
-        position: absolute;
-        right: 0 !important;
-    }
-    #blueJo {
-        display: none;
-    }
-    #mobileBlueJo {
-        display: block;
-        text-align: left;
-        padding: 20vh 2vh 5vh 2vh !important;
-    }
-    .alignheading {
-        font-size: 30px;
-        margin: 3rem 1rem 1rem 0rem !important;
-    }
-    .aligntext {
-        font-size: 10px;
-        width: 9.5rem;
-        margin: 1rem 0rem !important;
-    }
-    #comingsoon {
-        font-size: 12px;
-        margin: 1rem 0rem !important;
-    }
-    .centeralignheading {
-        margin-top: 5rem;
-    }
-    .teamUnderTheWave2 {
-        display: block;
-        padding-bottom: 1vh;
-    }
-    .underTheWave {
-        background-image: url(../Jo/1940px_longest_background.svg);
-        bottom: 0;
-        background-size: auto;
-    }
-    #blueJoInvolved {
-        margin-top: 15vh !important;
-    }
-    .downloadContainer {
-        padding: 0 !important;
-        text-align: center;
-    }
-    .mobileLanding {
-        margin-left: 8.5vw !important;
-    }
+@media only screen and (max-width: 401px) {
+  .form {
+    width: 20rem !important;
+  }
+  #mainJoTheFish {
+    width: 100%;
+    left: 0rem;
+    padding: 0;
+  }
+  #arrowDown {
+    display: block;
+  }
+  #whiteArrowDown {
+    display: none;
+  }
+  .jumbotron {
+    justify-content: center;
+    padding: 2rem !important;
+    /* margin: 0% 25% 0% 25% !important; */
+    text-align: center;
+    background-color: transparent !important;
+    margin-bottom: 0 !important;
+  }
+  .getinvolved {
+    padding: 1rem !important;
+    text-align: justify !important;
+  }
+  #partialJo {
+    width: 9rem;
+    position: absolute;
+    right: 0 !important;
+  }
+  #blueJo {
+    display: none;
+  }
+  #mobileBlueJo {
+    display: block;
+    text-align: left;
+    padding: 20vh 2vh 5vh 2vh !important;
+  }
+  .alignheading {
+    font-size: 30px;
+    margin: 3rem 1rem 1rem 0rem !important;
+  }
+  .aligntext {
+    font-size: 10px;
+    width: 9.5rem;
+    margin: 1rem 0rem !important;
+  }
+  #comingsoon {
+    font-size: 12px;
+    margin: 1rem 0rem !important;
+  }
+  .centeralignheading {
+    margin-top: 5rem;
+  }
+  .teamUnderTheWave2 {
+    display: block;
+    padding-bottom: 1vh;
+  }
+  .underTheWave {
+    background-image: url(../Jo/1940px_longest_background.svg);
+    bottom: 0;
+    background-size: auto;
+  }
+  #blueJoInvolved {
+    margin-top: 15vh !important;
+  }
+  .downloadContainer {
+    padding: 0 !important;
+    text-align: center;
+  }
+  .mobileLanding {
+    margin-left: 8.5vw !important;
+  }
 }
-@media only screen and (min-width:402px) and (max-width:600px){
-    .form{
-        width: 20rem !important;
-    }
-    #mainJoTheFish {
-        width: 100%;
-        left: 0rem;
-        padding: 0;
-    }
-    #arrowDown {
-        display: block;
-    }
-    #whiteArrowDown {
-        display: none;
-    }
-    .jumbotron {
-        justify-content: center;
-        padding: 2rem !important;
-        /* margin: 0% 25% 0% 25% !important; */
-        text-align: center;
-        background-color: transparent !important;
-        margin-bottom: 0 !important;
-    }
-    .getinvolved { 
-        padding: 1rem !important;
-        text-align: justify !important;
-    }
-    #partialJo {
-        width: 10rem;
-        position: absolute;
-        right: 0 !important;
-    }
-    #blueJo {
-        display: none;
-    }
-    #mobileBlueJo {
-        display: block;
-        text-align: left;
-        padding: 10rem 2rem !important;
-    }
-    .alignheading {
-        font-size: 30px;
-        margin: 3rem 1rem 1rem 0rem !important;
-    }
-    .aligntext {
-        font-size: 10px;
-        width: 9.5rem;
-        margin: 1rem 0rem !important;
-    }
-    #comingsoon {
-        font-size: 12px;
-        margin: 1rem 0rem !important;
-    }
-    .centeralignheading {
-        margin-top: 5rem;
-    }
-    .teamUnderTheWave2 {
-        display: block;
-        padding-bottom: 1vh;
-    }
-    .underTheWave {
-        background-image: url(../Jo/1940px_longest_background.svg);
-        bottom: 0;
-        background-size: auto;
-    }
-    #blueJoInvolved {
-        margin-top: 10vh !important;
-    }
-    .downloadContainer {
-        padding: 0 !important;
-        text-align: center;
-    }
-    .mobileLanding {
-        margin-left: 10vw !important;
-    }
+@media only screen and (min-width: 402px) and (max-width: 600px) {
+  .form {
+    width: 20rem !important;
+  }
+  #mainJoTheFish {
+    width: 100%;
+    left: 0rem;
+    padding: 0;
+  }
+  #arrowDown {
+    display: block;
+  }
+  #whiteArrowDown {
+    display: none;
+  }
+  .jumbotron {
+    justify-content: center;
+    padding: 2rem !important;
+    /* margin: 0% 25% 0% 25% !important; */
+    text-align: center;
+    background-color: transparent !important;
+    margin-bottom: 0 !important;
+  }
+  .getinvolved {
+    padding: 1rem !important;
+    text-align: justify !important;
+  }
+  #partialJo {
+    width: 10rem;
+    position: absolute;
+    right: 0 !important;
+  }
+  #blueJo {
+    display: none;
+  }
+  #mobileBlueJo {
+    display: block;
+    text-align: left;
+    padding: 10rem 2rem !important;
+  }
+  .alignheading {
+    font-size: 30px;
+    margin: 3rem 1rem 1rem 0rem !important;
+  }
+  .aligntext {
+    font-size: 10px;
+    width: 9.5rem;
+    margin: 1rem 0rem !important;
+  }
+  #comingsoon {
+    font-size: 12px;
+    margin: 1rem 0rem !important;
+  }
+  .centeralignheading {
+    margin-top: 5rem;
+  }
+  .teamUnderTheWave2 {
+    display: block;
+    padding-bottom: 1vh;
+  }
+  .underTheWave {
+    background-image: url(../Jo/1940px_longest_background.svg);
+    bottom: 0;
+    background-size: auto;
+  }
+  #blueJoInvolved {
+    margin-top: 10vh !important;
+  }
+  .downloadContainer {
+    padding: 0 !important;
+    text-align: center;
+  }
+  .mobileLanding {
+    margin-left: 10vw !important;
+  }
 }
-@media only screen and (min-device-width: 767px) and (max-width:1024px){
-    .form{
-        width: 40rem !important;
-        left: 0;
-    }
-    .getinvolved { 
-        padding: 1rem 5rem 0rem 5rem;
-        text-align: left;
-    }
-    #mainJoTheFish {
-        width: 20rem;
-        position: absolute;
-        left: -2rem;
-    }
-    #arrowDown {
-        display:none;
-    }
-    #whiteArrowDown {
-        display: block;
-    }
-    .teamUnderTheWave2 {
-        display: block;
-        padding-bottom: 1vh;
-    }
-    .underTheWave {
-        background-image: url(../Jo/1940px_longest_background.svg);
-        bottom: 0;
-        background-size: auto;
-    }
+@media only screen and (min-device-width: 767px) and (max-width: 1024px) {
+  .form {
+    width: 40rem !important;
+    left: 0;
+  }
+  .getinvolved {
+    padding: 1rem 5rem 0rem 5rem;
+    text-align: left;
+  }
+  #mainJoTheFish {
+    width: 20rem;
+    position: absolute;
+    left: -2rem;
+  }
+  #arrowDown {
+    display: none;
+  }
+  #whiteArrowDown {
+    display: block;
+  }
+  .teamUnderTheWave2 {
+    display: block;
+    padding-bottom: 1vh;
+  }
+  .underTheWave {
+    background-image: url(../Jo/1940px_longest_background.svg);
+    bottom: 0;
+    background-size: auto;
+  }
 }
-@media only screen and (min-device-width: 601px) and (max-width:766px){
-    .form{
-        width: 20rem !important;
-    }
-    #mainJoTheFish {
-        width: 100%;
-        left: 0rem;
-        padding: 0;
-    }
-    #arrowDown {
-        display: block;
-    }
-    #whiteArrowDown {
-        display: none;
-    }
-    .jumbotron {
-        justify-content: center;
-        padding: 2rem !important;
-        /* margin: 0% 25% 0% 25% !important; */
-        text-align: center;
-        background-color: transparent !important;
-        margin-bottom: 0 !important;
-    }
-    .getinvolved { 
-        padding: 1rem !important;
-        text-align: justify !important;
-    }
-    #partialJo {
-        width: 9rem;
-        position: absolute;
-        right: 0 !important;
-    }
-    #blueJo {
-        display: none;
-    }
-    #mobileBlueJo {
-        display: block;
-        text-align: left;
-        padding: 10rem 2rem !important;
-    }
-    .alignheading {
-        font-size: 30px;
-        margin: 3rem 1rem 1rem 0rem !important;
-    }
-    .aligntext {
-        font-size: 10px;
-        width: 9.5rem;
-        margin: 1rem 0rem !important;
-    }
-    #comingsoon {
-        font-size: 12px;
-        margin: 1rem 0rem !important;
-    }
-    .centeralignheading {
-        margin-top: 5rem;
-    }
-    .teamUnderTheWave2 {
-        display: block;
-        padding-bottom: 1vh;
-    }
-    .underTheWave {
-        background-image: url(../Jo/1940px_longest_background.svg);
-        bottom: 0;
-        background-size: auto;
-    }
+@media only screen and (min-device-width: 601px) and (max-width: 766px) {
+  .form {
+    width: 20rem !important;
+  }
+  #mainJoTheFish {
+    width: 100%;
+    left: 0rem;
+    padding: 0;
+  }
+  #arrowDown {
+    display: block;
+  }
+  #whiteArrowDown {
+    display: none;
+  }
+  .jumbotron {
+    justify-content: center;
+    padding: 2rem !important;
+    /* margin: 0% 25% 0% 25% !important; */
+    text-align: center;
+    background-color: transparent !important;
+    margin-bottom: 0 !important;
+  }
+  .getinvolved {
+    padding: 1rem !important;
+    text-align: justify !important;
+  }
+  #partialJo {
+    width: 9rem;
+    position: absolute;
+    right: 0 !important;
+  }
+  #blueJo {
+    display: none;
+  }
+  #mobileBlueJo {
+    display: block;
+    text-align: left;
+    padding: 10rem 2rem !important;
+  }
+  .alignheading {
+    font-size: 30px;
+    margin: 3rem 1rem 1rem 0rem !important;
+  }
+  .aligntext {
+    font-size: 10px;
+    width: 9.5rem;
+    margin: 1rem 0rem !important;
+  }
+  #comingsoon {
+    font-size: 12px;
+    margin: 1rem 0rem !important;
+  }
+  .centeralignheading {
+    margin-top: 5rem;
+  }
+  .teamUnderTheWave2 {
+    display: block;
+    padding-bottom: 1vh;
+  }
+  .underTheWave {
+    background-image: url(../Jo/1940px_longest_background.svg);
+    bottom: 0;
+    background-size: auto;
+  }
 }

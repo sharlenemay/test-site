@@ -10,6 +10,7 @@ import SignUpEarlyAccess from "../Components/WantEarlyAccess/wantEarlyAccess";
 import downArrow from "../Jo/down_arrow.svg";
 import whiteDownArrow from "../Jo/white_down_arrow.svg";
 import { ScrollingProvider, SectionLink, Section } from "react-scroll-section";
+import Monitor from "../Jo/monitor.svg";
 
 export default function Landing() {
 
@@ -21,27 +22,30 @@ export default function Landing() {
 
   return (
     <ScrollingProvider>
+          <img id="monitor" src={Monitor} alt="monitor"></img>
       <Jumbotron id="blueJo">
         <Row>
-          <Col xs={12} sm={12} md={6} lg={6} id="rightalignjo">
-            <img id="landingjo" src={BlueJo} alt="blue Jo"></img>
-          </Col>
+            {/* <Container id="mainJoTheFish"> */}
           <Col xs={12} sm={12} md={6} lg={6}>
-            <Container id="mainJoTheFish">
               <div className="center">
-                <h1 className="alignheading">Jo the Fish</h1>
-              </div>
-              <p className="aligntext">
+                <h1 className="alignheading">Jo sits in your browser and will warn you when something smells
+                a bit fishy.
+                </h1>
+              {/* <p className="aligntext">
                 Jo sits in your browser and will warn you when something smells
                 a bit fishy.
-              </p>
+              </p> */}
               <Button variant="primary" href="http://jothefish.com/download" target="_blank" id="downloadBtn">Download Chrome Extension</Button>
-            </Container>
+              </div>
+          </Col>
+            {/* </Container> */}
+          <Col xs={12} sm={12} md={6} lg={6} id="rightalignjo">
+            <img id="landingjo" src={BlueJo} alt="blue Jo"></img>
           </Col>
         </Row>
         <Row>
           <Col className="centeralignheading" id="arrowDown" xs={12} lg={12}>
-            <SectionLink section="howJoWorks">
+            {/* <SectionLink section="howJoWorks">
               {({ onClick, isSelected }) => (
                 <img
                   id="blueDownArrow"
@@ -51,7 +55,7 @@ export default function Landing() {
                   selected={isSelected}
                 />
               )}
-            </SectionLink>
+            </SectionLink> */}
           </Col>
         </Row>
       </Jumbotron>
