@@ -26,7 +26,7 @@ export default function Landing() {
       <Jumbotron id="blueJo">
         <Row>
             {/* <Container id="mainJoTheFish"> */}
-          <Col xs={12} sm={12} md={6} lg={6}>
+          <Col >
               <div className="center">
                 <h1 className="alignheading">Jo sits in your browser and will warn you when something smells
                 a bit fishy.
@@ -39,7 +39,7 @@ export default function Landing() {
               </div>
           </Col>
             {/* </Container> */}
-          <Col xs={12} sm={12} md={6} lg={6} id="rightalignjo">
+          <Col>
             <img id="landingjo" src={BlueJo} alt="blue Jo"></img>
           </Col>
         </Row>
@@ -63,7 +63,7 @@ export default function Landing() {
       {/* mobile */}
       <Jumbotron id="mobileBlueJo">
         <img id="partialJo" src={PartialJo} alt="blue Jo"></img>
-        <h1 className="alignheading mobileLanding">Jo the Fish</h1>
+        <h1 id="jothefishMobile" className="alignheading mobileLanding">Jo the Fish</h1>
         <p className="aligntext mobileLanding">
           Jo sits in your browser and will warn you when something smells a bit
           fishy.

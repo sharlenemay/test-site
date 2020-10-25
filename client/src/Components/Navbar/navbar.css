@@ -41,6 +41,7 @@
     font-size: 20px;
     line-height: 23px;
     font-variant: small-caps;
+    z-index: 5;
 }
 .activeLink ul > li > a {
     font-weight: 700;
