@@ -34,7 +34,7 @@ h5 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.25vw;
   padding: 0.75rem 2.5rem;
   margin: 3rem 0rem 0rem 0rem;
   line-height: 21px;
@@ -102,7 +102,8 @@ h5 {
   );
 }
 #monitor {
-    top: -5vh !important;
+    top: -3vh !important;
+    z-index: 0;
     position: absolute;
     width: 75vw;
     left: 13vw;
@@ -110,7 +111,9 @@ h5 {
     cursor: default;
     /* margin: 0 auto; */
 }
-
+#partialJo {
+    width: 43vw;
+}
 /* ::placeholder {
     color: rgb(145, 19, 19);
 }
@@ -131,9 +134,10 @@ h5 {
   font-size: 2.75vw;
 }
 .aligntext {
-  font-size: 16px;
+  font-size: 5vw;
   margin: 2rem;
   text-align: left;
+  width: 50vw;
 }
 .centeralignheading {
   padding: 7rem;
@@ -272,15 +276,18 @@ img {
     position: absolute;
 }
 #landingjo {
-  width: 20rem;
+  width: 25vw;
   padding: 0;
   cursor: default;
+  top: 13vh;
 }
 #rightalignjo {
-  text-align: right;
-  right: 12vw;
-  top: 15vh;
-  padding-left: none;
+  /* text-align: right; */
+  /* right: 12vw; */
+  /* padding-left: none; */
+}
+#jothefishMobile {
+    font-size: 10vw;
 }
 .btn {
   background-color: #4ec8f4;
@@ -437,7 +444,7 @@ img {
     text-align: justify !important;
   }
   #partialJo {
-    width: 9rem;
+    /* width: 9rem; */
     position: absolute;
     right: 0 !important;
   }
@@ -450,12 +457,12 @@ img {
     padding: 20vh 2vh 5vh 2vh !important;
   }
   .alignheading {
-    font-size: 30px;
+    /* font-size: 30px; */
     margin: 3rem 1rem 1rem 0rem !important;
   }
   .aligntext {
-    font-size: 10px;
-    width: 9.5rem;
+    /* font-size: 10px; */
+    /* width: 10.5rem; */
     margin: 1rem 0rem !important;
   }
   #comingsoon {
@@ -482,13 +489,19 @@ img {
     text-align: center;
   }
   .mobileLanding {
-    margin-left: 8.5vw !important;
+    margin-left: 5vw !important;
+  }
+  #monitor {
+      display: none;
   }
 }
 @media only screen and (min-width: 402px) and (max-width: 600px) {
   .form {
     width: 20rem !important;
   }
+  #monitor {
+    display: none;
+}
   #mainJoTheFish {
     width: 100%;
     left: 0rem;
@@ -513,7 +526,7 @@ img {
     text-align: justify !important;
   }
   #partialJo {
-    width: 10rem;
+    /* width: 10rem; */
     position: absolute;
     right: 0 !important;
   }
@@ -526,12 +539,12 @@ img {
     padding: 10rem 2rem !important;
   }
   .alignheading {
-    font-size: 30px;
+    /* font-size: 30px; */
     margin: 3rem 1rem 1rem 0rem !important;
   }
   .aligntext {
-    font-size: 10px;
-    width: 9.5rem;
+    /* font-size: 10px; */
+    /* width: 9.5rem; */
     margin: 1rem 0rem !important;
   }
   #comingsoon {
@@ -558,7 +571,7 @@ img {
     text-align: center;
   }
   .mobileLanding {
-    margin-left: 10vw !important;
+    margin-left: 3.5vw !important;
   }
 }
 @media only screen and (min-device-width: 767px) and (max-width: 1024px) {
@@ -566,6 +579,9 @@ img {
     width: 40rem !important;
     left: 0;
   }
+  #monitor {
+    display: block;
+}
   .getinvolved {
     padding: 1rem 5rem 0rem 5rem;
     text-align: left;
@@ -603,6 +619,9 @@ img {
   #arrowDown {
     display: block;
   }
+  #monitor {
+    display: none;
+}
   #whiteArrowDown {
     display: none;
   }
@@ -619,7 +638,7 @@ img {
     text-align: justify !important;
   }
   #partialJo {
-    width: 9rem;
+    /* width: 9rem; */
     position: absolute;
     right: 0 !important;
   }
@@ -632,12 +651,12 @@ img {
     padding: 10rem 2rem !important;
   }
   .alignheading {
-    font-size: 30px;
+    /* font-size: 30px; */
     margin: 3rem 1rem 1rem 0rem !important;
   }
   .aligntext {
-    font-size: 10px;
-    width: 9.5rem;
+    /* font-size: 10px; */
+    /* width: 9.5rem; */
     margin: 1rem 0rem !important;
   }
   #comingsoon {
