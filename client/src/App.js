@@ -7,6 +7,7 @@ import Contact from "./Pages/Contact";
 import Navigation from "./Components/Navbar/navbar"
 import Footer from "./Components/Footer/footer";
 import Team from "./Pages/Team";
+import Welcome from "./Pages/Welcome";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route exact path="/ourteam">
             <Team />
+          </Route>
+          <Route exact path="/welcome">
+            <Welcome />
           </Route>
         </Switch>
         <Footer />
