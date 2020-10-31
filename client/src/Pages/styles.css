@@ -131,7 +131,7 @@ h5 {
 .alignheading {
   margin: 0rem 0rem 0rem 5rem;
   text-align: left;
-  font-size: 2.75vw;
+  /* font-size: 2.75vw; */
 }
 .aligntext {
   font-size: 5vw;
@@ -265,11 +265,11 @@ img {
 }
 .JoPiece {
     width: 80%;
-    margin-top: 5vh;
+    margin-top: 2vh;
 }
 .how {
-    margin-top: 15vh;
-    padding-top: 5rem;
+    margin-top: 10vh;
+    padding-top: 8vh;
 }
 #pinmenu {
     width: 200%;

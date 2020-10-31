@@ -79,7 +79,7 @@ export default function Welcome() {
         </Col>
       </Row>
       <Row>
-        <div className="how">
+        <div>
           <h1 className="alignheading">Now you're ready to go!</h1>
           <h5 className="alignheading">
           Try clicking on the links to websites below and test it out for yourself.          </h5>
@@ -87,10 +87,14 @@ export default function Welcome() {
       </Row>
       <Row>
         <Col>
-        <img className="JoPiece" src={WikiBlock} alt="wiki"></img>
+        <a href="https://wikipedia.org" target="_blank">
+          <img className="JoPiece" src={WikiBlock} alt="wiki"></img>
+        </a>
         </Col>
         <Col>
-        <img className="JoPiece" src={FacebookBlock} alt="facebook"></img>
+        <a href="https://wikipedia.org" target="_blank">
+          <img className="JoPiece" to="https://facebook.com" target="_blank" src={FacebookBlock} alt="facebook"></img>
+        </a>
         </Col>
       </Row>
     </Container>
