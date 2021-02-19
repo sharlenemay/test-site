@@ -59,6 +59,9 @@
 #mozillabuilder {
     width: 200px;
 }
+#mozillabuilder {
+    width: 200px;
+}
 
 @media only screen and (max-width:600px) {
     #footernav {
