@@ -7,16 +7,16 @@
     margin-bottom: -50px !important;
 }
 #proudpartners {
-    padding-top: 8rem;
-    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 0rem;
 }
 #partners {
-    padding: 3rem;
+    padding: 2rem 0rem;
     margin: .5rem;
 }
 .partner {
     width: 10rem;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
 }
 .socialicon {
     width: 2rem;
@@ -53,8 +53,11 @@
     font-variant: small-caps;
 }
 #footernav {
-    margin-top: 5rem;
-    margin-bottom: 5.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#mozillabuilder {
+    width: 200px;
 }
 #mozillabuilder {
     width: 200px;

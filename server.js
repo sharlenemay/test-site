@@ -8,6 +8,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(cors());
 
+var compression = require("compression");
+app.use(compression());
+
 const routes = require("./routes");
 
 const PORT = process.env.PORT || 3001;
